@@ -330,7 +330,7 @@
 -r:"/home/risb/Unity/Hub/Editor/2022.3.41f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.Xml.dll"
 -r:"/home/risb/Unity/Hub/Editor/2022.3.41f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/System.dll"
 -r:"/home/risb/Unity/Hub/Editor/2022.3.41f1/Editor/Data/UnityReferenceAssemblies/unity-4.8-api/mscorlib.dll"
--r:"Assets/Resources/alglib403gpl_net2.dll"
+-r:"Assets/Plugins/alglib403gpl_net2.dll"
 -r:"Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll"
 -r:"Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll"
 -r:"Library/PackageCache/com.unity.collab-proxy@2.5.2/Lib/Editor/PlasticSCM/log4netPlastic.dll"
