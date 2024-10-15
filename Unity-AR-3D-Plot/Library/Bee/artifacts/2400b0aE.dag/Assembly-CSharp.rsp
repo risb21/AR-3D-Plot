@@ -352,7 +352,7 @@
 -analyzer:"/home/risb/Unity/Hub/Editor/2022.3.41f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.Properties.SourceGenerator.dll"
 -analyzer:"/home/risb/Unity/Hub/Editor/2022.3.41f1/Editor/Data/Tools/Unity.SourceGenerators/Unity.SourceGenerators.dll"
 "Assets/CameraControlller.cs"
-"Assets/MeshGenerator.cs"
+"Assets/MeshGeneratorDualContouring.cs"
 -langversion:9.0
 /deterministic
 /optimize+
