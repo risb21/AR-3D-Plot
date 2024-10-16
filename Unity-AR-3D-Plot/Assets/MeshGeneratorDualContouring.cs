@@ -35,7 +35,6 @@ class DualContouring {
 
     SurfaceDelegate surface;
     SampledData samples;
-    // public GameObject cubePrefab;
 
     static readonly cellIdx[] DC_Points = {
         (0, 0, 0),
@@ -63,8 +62,8 @@ class DualContouring {
 
     };
     
-    const int maxSamples = 128; // 2 ^ 8, i.e, 8 bit indexing
-    const float delta = 1e-3f;
+    const int maxSamples = 64; // 2 ^ 8, i.e, 8 bit indexing
+    const float delta = 1e-6f;
     
     public DualContouring(SurfaceDelegate surface, /* GameObject obj, */ float bounds = 5) {
         samples.bounds = bounds;
@@ -557,12 +556,9 @@ class DualContouring {
 public class MeshGeneratorDualContouring : MonoBehaviour {
 
     Mesh mesh;
-    // public GameObject pointPrefab;
-    Vector3[] verts;
-    int[] tris;
 
     int r = 1;
-    readonly float R = 2f;
+    readonly float R = 1.9f;
 
 
     void Awake() {
@@ -579,10 +575,10 @@ public class MeshGeneratorDualContouring : MonoBehaviour {
         // return z * z + y * y + x * x - R * R;
 
         // Implicit surface
-        // return x * x + y * y + z * z + (float) (Math.Sin(4 * x) + Math.Sin(4 * y) + Math.Sin(4 * z)) - R;
+        return x * x + y * y + z * z + (float) (Math.Sin(4 * x) + Math.Sin(4 * y) + Math.Sin(4 * z)) - R;
         
         // Idk
-        return 4 * (float) Math.Pow(Math.E, -y * y / 4) * (float) Math.Sin(2 * x) - z;
+        // return 4 * (float) Math.Pow(Math.E, -y * y / 4) * (float) Math.Sin(2 * x) - z;
         
         // Goursat's tangle
         // return (float) (Math.Pow(x, 4) + Math.Pow(y, 4) + Math.Pow(z, 4)) / 2
@@ -594,10 +590,7 @@ public class MeshGeneratorDualContouring : MonoBehaviour {
     }
 
     void Start() {
-        // GenerateMeshData();
-        // CreateMesh();
-
-        DualContouring d = new DualContouring(Surface, 6f);
+        DualContouring d = new DualContouring(Surface, 2.2f);
 
         DateTime start = DateTime.Now;
 
@@ -608,18 +601,6 @@ public class MeshGeneratorDualContouring : MonoBehaviour {
         mesh.RecalculateNormals();
 
         Debug.Log($"Time taken: {DateTime.Now - start}");
-    }
-
-    void GenerateMeshData() {
-        verts = new Vector3[]{new Vector3(0, 0, 0), new Vector3(0, 0, 1), new Vector3(1, 0, 0)};
-        tris = new int[]{0, 1, 2};
-    }
-    
-    void CreateMesh() {
-        mesh.Clear();
-        mesh.vertices = verts;
-        mesh.triangles = tris;
-        mesh.RecalculateNormals();
     }
 
 }
