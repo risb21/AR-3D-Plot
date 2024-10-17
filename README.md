@@ -58,8 +58,7 @@ $$\Large A =
     n_{1_{x}} & n_{1_{y}} & n_{1_{z}} \\
     n_{2_{x}} & n_{2_{y}} & n_{2_{z}} \\
     \vdots & \vdots & \vdots \\
-    n_{k_{x}} & n_{k_{y}} & n_{k_{z}} 
-
+    n_{k_{x}} & n_{k_{y}} & n_{k_{z}}
 \end{bmatrix}_{k \times 3}$$
 <br>
 
