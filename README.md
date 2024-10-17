@@ -24,12 +24,16 @@ Dual Contouring comprises of 2 main steps:
     - For each edge with an intersection, "binary search" could be used to narrow the intersection point such that $f(x, y, z) \approx 0$
     - Get normals of each intersection point on the surface
     $$f'(x, y, z) = \left[\dfrac{\partial f(x, y, z)}{\partial x} \dfrac{\partial f(x, y, z)}{\partial y} \dfrac{\partial f(x, y, z)}{\partial z} \right] = n_i$$
-    - Differentiate using the limit definition
+    - Differentiate using the limit definition 
+    <br>
     $$\dfrac{\partial f(x, y, z)}{\partial x} = \lim_{h\to 0} \dfrac{f(x + h, y, z) - f(x - h, y, z)}{2h}$$
-    - Using the points of intersection and the normals at those points, a singular point within the cell is solved for, using the following formula 
-    $$\underset{x\in\mathbb{R^3}}{\text{min}}\space E[x] = \sum_{i = 0}^{k}(n_i \cdot (x - p_i))^2$$
-    $$p_i \Rightarrow \text{i-th point of intersection on an edge}$$
-    $$n_i \Rightarrow \text{normal at $p_i$}$$
+    - Using the points of intersection and the normals at those points, a singular point within the cell is solved for, using the following formula
+
+    $$\underset{x\in\mathbb{R^3}}{\text{min}}\space E[x] = \sum_{i = 0}^{k}(n_i \cdot (x - p_i))^2\newline$$
+
+    $$p_i \Rightarrow \text{i-th point of intersection on an edge} \newline$$
+
+    $$n_i \Rightarrow \text{normal at }p_i \newline$$
     - This can be represented as matrix operations
 
 #### 2. Meshing
