@@ -18,27 +18,33 @@ Dual Contouring comprises of 2 main steps:
 - Sample points int 3D space at fixed and regular intervals, according to some function of all 3 axes, $f(x, y, z)$. The point will be on the surface if $f(x, y, z) = 0$ .
 - Now traverse the samples in the form of 3D cubes/cells. Each cell considers 8 points at a time.
     - Each edge in the cell is checked for intersections, where an intersection has occurred if the sample al each end of the edge has a different sign.
+        <br>
+        $$\Large p \Rightarrow \text{"Surface passes through cell"}$$
+        <br>
 
-        $$\Large \newline p \Rightarrow \text{"Surface passes through cell"}$$
-        $$\Large \newline \exists (u, v) \in cell,  \dfrac{f(u)}{||f(u)||} \neq \dfrac{f(v)}{||f(v)||} \Leftrightarrow p \mid u,v \in \mathbb{R}^3$$
-
+        $$\Large \exists (u, v) \in cell,  \dfrac{f(u)}{||f(u)||} \neq \dfrac{f(v)}{||f(v)||} \Leftrightarrow p \mid u,v \in \mathbb{R}^3$$
+        
     - For each edge with an intersection, "binary search" could be used to narrow the intersection point such that $f(x, y, z) \approx 0$
 
     - Get normals of each intersection point on the surface
+        <br>
         $$\Large f'(x, y, z) = \left[\dfrac{\partial f(x, y, z)}{\partial x} \dfrac{\partial f(x, y, z)}{\partial y} \dfrac{\partial f(x, y, z)}{\partial z} \right] = n_i$$
-
+        
     - Differentiate using the limit definition 
-
-        $$\Large \newline\dfrac{\partial f(x, y, z)}{\partial x} = \lim_{h\to 0} \dfrac{f(x + h, y, z) - f(x - h, y, z)}{2h}$$
-
+        <br>
+        $$\Large \dfrac{\partial f(x, y, z)}{\partial x} = \lim_{h\to 0} \dfrac{f(x + h, y, z) - f(x - h, y, z)}{2h}$$
+        
     - Using the points of intersection and the normals at those points, a singular point within the cell is solved for, using the following formula
+        <br>
+        
+        $$\Large \underset{x\in\mathbb{R^3}}{\text{min}}\space E[x] = \sum_{i = 0}^{k}(n_i \cdot (x - p_i))^2$$
+        <br>
 
-        $$\Large \newline \underset{x\in\mathbb{R^3}}{\text{min}}\space E[x] = \sum_{i = 0}^{k}(n_i \cdot (x - p_i))^2$$
+        $$\Large p_i \Rightarrow \text{i-th point of intersection on an edge}$$
+        <br>
 
-        $$\Large \newline p_i \Rightarrow \text{i-th point of intersection on an edge} $$
-
-        $$\Large \newline n_i \Rightarrow \text{normal at }p_i $$
-
+        $$\Large n_i \Rightarrow \text{normal at }p_i$$
+        
     - This can be represented as matrix operations
 
 #### 2. Meshing
