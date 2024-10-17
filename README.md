@@ -15,7 +15,7 @@ Dual Contouring comprises of 2 main steps:
 2. Meshing of points
 
 #### 1. Point Generation 
-- Sample points int 3D space at fixed and regular intervals, according to some function of all 3 axes, $f(x, y, z)$. The point will be on the surface if $f(x, y, z) = 0$ .
+- Sample points in 3D space at fixed and regular intervals, according to some function of all 3 axes, $f(x, y, z)$. The point will be on the surface if $f(x, y, z) = 0$ .
 - Now traverse the samples in the form of 3D cubes/cells. Each cell considers 8 points at a time.
 - Each edge in the cell is checked for intersections, where an intersection has occurred if the sample al each end of the edge has a different sign.
     <br>
@@ -80,10 +80,10 @@ $$\Large b =
 - To fix this, we can add a small bias towards the "Center of Mass" or average of intersection points within the cell.
 <br>
 
-$$\Large b_{bias} = 2.5\times10^{-3}$$
+$$\Large b_{\text{bias}} = 2.5\times10^{-3}$$
 <br>
 
-$$\Large p_{CoM} = \underset{i = 1}{\overset{k}{\text{avg}}} \space p$$
+$$\Large p_{\text{CoM}} = \underset{i = 1}{\overset{k}{\text{avg}}} \space p_{i}$$
 <br>
 
 $$\Large A =
@@ -92,9 +92,9 @@ $$\Large A =
     n_{2_{x}} & n_{2_{y}} & n_{2_{z}} \\
     \vdots & \vdots & \vdots \\
     n_{k_{x}} & n_{k_{y}} & n_{k_{z}} \\
-    b_{bias} & 0 & 0 \\
-    0 & b_{bias} & 0 \\
-    0 & 0 & b_{bias}
+    b_{\text{bias}} & 0 & 0 \\
+    0 & b_{\text{bias}} & 0 \\
+    0 & 0 & b_{\text{bias}}
 \end{bmatrix}_{(k + 3) \times 3}$$
 <br>
 
@@ -104,12 +104,23 @@ $$\Large p =
     p_{2} \\
     \vdots \\
     p_{k} \\
-    p_{CoM} \\
-    p_{CoM} \\
-    p_{CoM}
+    p_{\text{CoM}} \\
+    p_{\text{CoM}} \\
+    p_{\text{CoM}}
 \end{bmatrix}_{(k+3) \times 1}$$
 <br>
 
 
-
 #### 2. Meshing
+
+- From the perspective of an edge in sample space, if there is an intersection through it, there must exist a point generated on the surface of the implicit surface in all the 4 cells that share that edge
+
+![Image depicting the above point](https://miro.medium.com/v2/resize:fit:720/format:webp/1*V1tKA33TwIGdFXJi0YL3IA.png)
+[Extracted from this blog](https://bonsairobo.medium.com/smooth-voxel-mapping-a-technical-deep-dive-on-real-time-surface-nets-and-texturing-ef06d0f8ca14#a230)
+- This is true because if an edge has an intersection, it will have contributed to generation of a point within the cells that share that particular edge.
+
+- In order to take care of backface culling, the quad must be meshed together in clockwise direction from the perspective of the point on the edge which is outside the surface.
+
+- If the inside of the surface also must be defined, then define the quads in clockwise and anti-clockwise manner, regardless of the perspective of the points. 
+
+
