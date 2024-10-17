@@ -27,14 +27,14 @@ Dual Contouring comprises of 2 main steps:
 - For each edge with an intersection, "binary search" could be used to narrow the intersection point such that $f(x, y, z) \approx 0$
 
 - Get normals of each intersection point on the surface
-    <br>
+<br>
 
-    $$\Large f'(x, y, z) = \begin{bmatrix}\dfrac{\partial f(x, y, z)}{\partial x} & \dfrac{\partial f(x, y, z)}{\partial y} & \dfrac{\partial f(x, y, z)}{\partial z} \end{bmatrix} = n_i$$
+$$\Large f'(x, y, z) = \begin{bmatrix}\dfrac{\partial f(x, y, z)}{\partial x} & \dfrac{\partial f(x, y, z)}{\partial y} & \dfrac{\partial f(x, y, z)}{\partial z} \end{bmatrix} = n_i$$
     
 - Differentiate using the limit definition 
     <br>
 
-    $$\Large \dfrac{\partial f(x, y, z)}{\partial x} =  <!-- \underset{h \to 0}{\text{lim}} --> \dfrac{f(x + h, y, z) - f(x - h, y, z)}{2h}$$
+    $$\Large \dfrac{\partial f(x, y, z)}{\partial x} =  \underset{h \to 0}{\text{lim}} \dfrac{f(x + h, y, z) - f(x - h, y, z)}{2h}$$
     
 - Using the points of intersection and the normals at those points, a singular point within the cell is solved for, using the following formula
     <br>
@@ -80,7 +80,7 @@ $$\Large b =
 - To fix this, we can add a small bias towards the "Center of Mass" or average of intersection points within the cell.
 <br>
 
-$$\Large b = 2.5\times10^{-3}$$
+$$\Large b_{bias} = 2.5\times10^{-3}$$
 <br>
 
 $$\Large p_{CoM} = \underset{i = 1}{\overset{k}{\text{avg}}} \space p$$
@@ -92,9 +92,9 @@ $$\Large A =
     n_{2_{x}} & n_{2_{y}} & n_{2_{z}} \\
     \vdots & \vdots & \vdots \\
     n_{k_{x}} & n_{k_{y}} & n_{k_{z}} \\
-    bias & 0 & 0 \\
-    0 & bias & 0 \\
-    0 & 0 & bias
+    b_{bias} & 0 & 0 \\
+    0 & b_{bias} & 0 \\
+    0 & 0 & b_{bias}
 \end{bmatrix}_{(k + 3) \times 3}$$
 <br>
 
