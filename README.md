@@ -107,7 +107,7 @@ $$\Large p =
     p_{\text{CoM}} \\
     p_{\text{CoM}} \\
     p_{\text{CoM}}
-\end{bmatrix}_{(k+3) \times 1}$$
+\end{bmatrix}_{(k+3) \times 3}$$
 <br>
 
 
