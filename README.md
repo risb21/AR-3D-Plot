@@ -34,12 +34,12 @@ $$\Large f'(x, y, z) = \begin{bmatrix}\dfrac{\partial f(x, y, z)}{\partial x} & 
 - Differentiate using the limit definition 
     <br>
 
-    $$\Large \dfrac{\partial f(x, y, z)}{\partial x} =  \underset{h \to 0}{\text{lim}} \dfrac{f(x + h, y, z) - f(x - h, y, z)}{2h}$$
+    $$\Large \dfrac{\partial f(x, y, z)}{\partial x} =  \underset{h \to 0^{+}}{\text{lim}} \dfrac{f(x + h, y, z) - f(x - h, y, z)}{2h}$$
     
 - Using the points of intersection and the normals at those points, a singular point within the cell is solved for, using the following formula
     <br>
     
-    $$\Large \underset{x\in\mathbb{R^3}}{\text{min}}\space E[x] = \sum_{i = 1}^{k}(n_i \cdot (x - p_i))^2$$
+    $$\Large \underset{x\in\mathbb{R^3}}{\text{min}}\space E[x] = \underset{i = 1}{\overset{k}{\sum}}(n_i \cdot (x - p_i))^2$$
     <br>
 
     $$\Large p_i \Rightarrow \text{i-th point of intersection on an edge}$$
@@ -116,6 +116,7 @@ $$\Large p =
 - From the perspective of an edge in sample space, if there is an intersection through it, there must exist a point generated on the surface of the implicit surface in all the 4 cells that share that edge
 
 ![Image depicting the above point](https://miro.medium.com/v2/resize:fit:720/format:webp/1*V1tKA33TwIGdFXJi0YL3IA.png)
+<br>
 [Extracted from this blog](https://bonsairobo.medium.com/smooth-voxel-mapping-a-technical-deep-dive-on-real-time-surface-nets-and-texturing-ef06d0f8ca14#a230)
 - This is true because if an edge has an intersection, it will have contributed to generation of a point within the cells that share that particular edge.
 
