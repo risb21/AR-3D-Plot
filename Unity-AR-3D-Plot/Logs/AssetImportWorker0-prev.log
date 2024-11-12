@@ -1,0 +1,1102 @@
+Unity Editor version:    2022.3.41f1 (0f988161febf)
+Branch:                  2022.3/staging
+Build type:              Release
+Batch mode:              YES
+System name:             Linux
+Distro version:          #1 SMP PREEMPT_DYNAMIC Thu, 17 Oct 2024 13:57:25 +0000
+Kernel version:          6.6.57-1-lts
+Architecture:            x86_64
+Available memory:        15684 MB
+Using pre-set license
+Pro License: YES
+
+(Unity:90218): Gtk-CRITICAL **: 01:57:01.466: gtk_window_set_default_icon: assertion 'GDK_IS_PIXBUF (icon)' failed
+
+(Unity:90218): GLib-GObject-CRITICAL **: 01:57:01.467: g_object_unref: assertion 'G_IS_OBJECT (object)' failed
+Desktop is 1920 x 1080 @ 60 Hz
+Initialize udev device monitor.
+
+COMMAND LINE ARGUMENTS:
+Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/home/risb/Desktop/AR/AR project/Unity-AR-3D-Plot
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+41805
+Successfully changed project path to: /home/risb/Desktop/AR/AR project/Unity-AR-3D-Plot
+/home/risb/Desktop/AR/AR project/Unity-AR-3D-Plot
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [130327493620480]  Target information:
+
+Player connection [130327493620480]  * "[IP] 192.168.1.12 [Port] 0 [Flags] 2 [Guid] 371545775 [EditorId] 371545775 [Version] 1048832 [Id] LinuxEditor(16,192.168.1.12) [Debug] 1 [PackageName] LinuxEditor [ProjectName] Editor" 
+
+Player connection [130327493620480] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [130327493620480] Host joined alternative multi-casting on [225.0.0.222:34997]...
+[PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+Refreshing native plugins compatible for Editor in 3.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.41f1 (0f988161febf)
+[Subsystems] Discovering subsystems at path /home/risb/Unity/Hub/Editor/2022.3.41f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /home/risb/Desktop/AR/AR project/Unity-AR-3D-Plot/Assets
+GLX Extensions: GLX_ARB_context_flush_control GLX_ARB_create_context GLX_ARB_create_context_no_error GLX_ARB_create_context_profile GLX_ARB_create_context_robustness GLX_ARB_fbconfig_float GLX_ARB_framebuffer_sRGB GLX_ARB_get_proc_address GLX_ARB_multisample GLX_EXT_buffer_age GLX_EXT_create_context_es2_profile GLX_EXT_create_context_es_profile GLX_EXT_fbconfig_packed_float GLX_EXT_framebuffer_sRGB GLX_EXT_no_config_context GLX_EXT_swap_control GLX_EXT_swap_control_tear GLX_EXT_texture_from_pixmap GLX_EXT_visual_info GLX_EXT_visual_rating GLX_INTEL_swap_event GLX_MESA_copy_sub_buffer GLX_MESA_gl_interop GLX_MESA_query_renderer GLX_MESA_swap_control GLX_OML_sync_control GLX_SGIS_multisample GLX_SGIX_fbconfig GLX_SGIX_pbuffer GLX_SGIX_visual_select_group GLX_SGI_make_current_read GLX_SGI_swap_control GLX_SGI_video_sync 
+Renderer: Mesa Intel(R) UHD Graphics 630 (CFL GT2)
+Vendor:   Intel
+Version:  4.6 (Core Profile) Mesa 24.2.5-arch1.1
+GLES:     0
+ GL_3DFX_texture_compression_FXT1 GL_AMD_conservative_depth GL_AMD_depth_clamp_separate GL_AMD_draw_buffers_blend GL_AMD_gpu_shader_int64 GL_AMD_multi_draw_indirect GL_AMD_performance_monitor GL_AMD_pinned_memory GL_AMD_query_buffer_object GL_AMD_seamless_cubemap_per_texture GL_AMD_shader_stencil_export GL_AMD_shader_trinary_minmax GL_AMD_texture_texture4 GL_AMD_vertex_shader_layer GL_AMD_vertex_shader_viewport_index GL_ANGLE_texture_compression_dxt3 GL_ANGLE_texture_compression_dxt5 GL_ARB_ES2_compatibility GL_ARB_ES3_1_compatibility GL_ARB_ES3_2_compatibility GL_ARB_ES3_compatibility GL_ARB_arrays_of_arrays GL_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_compute_variable_group_size GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB
+_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_fragment_shader_interlock GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gl_spirv GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_indirect_parameters GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_parallel_shader_compile GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_po
+int_sprite GL_ARB_polygon_offset_clamp GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separate_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_ballot GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_group_vote GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_include GL_ARB_shading_language_packing GL_ARB_spirv_extensions GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier G
+L_ARB_texture_border_clamp GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_filter_anisotropic GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_ARB_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_buffer_object GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2
+_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_texture_float GL_EXT_EGL_image_storage GL_EXT_EGL_image_storage_compression GL_EXT_EGL_sync GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_debug_label GL_EXT_demote_to_helper_invocation GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_object GL_EXT_framebuffer_sRGB GL_EXT_memory_object GL_EXT_memory_object_fd GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_semaphore GL_EXT_semaphore_fd GL_EXT_shader_framebuffer_fetch GL_EXT_shader_framebuffer_fetch_non_coherent GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_texture_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_sRGB GL_EXT_texture_sRGB_R8 GL_EXT_t
+exture_sRGB_decode GL_EXT_texture_shadow_lod GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_storage GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_EXT_vertex_attrib_64bit GL_IBM_multimode_draw_arrays GL_INTEL_blackhole_render GL_INTEL_conservative_rasterization GL_INTEL_performance_query GL_INTEL_shader_atomic_float_minmax GL_INTEL_shader_integer_functions2 GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_debug GL_KHR_no_error GL_KHR_parallel_shader_compile GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_framebuffer_flip_y GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_const_bandwidth GL_MESA_texture_signed_rgba GL_NV_alpha_to_coverage_dither_control GL_NV_compute_shader_derivatives GL_NV_conditional_render GL_NV_copy_image GL_NV_depth_clamp GL_NV_fragment_shader_interlo
+ck GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.6 graphics device ; Context level  <OpenGL 4.5> ; Context handle 1310882016
+Initialize mono
+Mono path[0] = '/home/risb/Unity/Hub/Editor/2022.3.41f1/Editor/Data/Managed'
+Mono path[1] = '/home/risb/Unity/Hub/Editor/2022.3.41f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-linux'
+Mono config path = '/home/risb/Unity/Hub/Editor/2022.3.41f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56218
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /home/risb/Unity/Hub/Editor/2022.3.41f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
+Register platform support module: /home/risb/Unity/Hub/Editor/2022.3.41f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: /home/risb/Unity/Hub/Editor/2022.3.41f1/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
+Registered in 0.011782 seconds.
+- Loaded All Assemblies, in  0.371 seconds
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 164 ms
+Native extension for WebGL target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.590 seconds
+Domain Reload Profiling: 961ms
+	BeginReloadAssembly (76ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (8ms)
+	initialDomainReloadingComplete (77ms)
+	LoadAllAssembliesAndSetupDomain (173ms)
+		LoadAssemblies (76ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (171ms)
+			TypeCache.Refresh (170ms)
+				TypeCache.ScanAssembly (155ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (591ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (537ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (330ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (140ms)
+			ProcessInitializeOnLoadMethodAttributes (61ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.693 seconds
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  0.908 seconds
+Domain Reload Profiling: 1599ms
+	BeginReloadAssembly (136ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (7ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (50ms)
+	LoadAllAssembliesAndSetupDomain (453ms)
+		LoadAssemblies (255ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (260ms)
+			TypeCache.Refresh (224ms)
+				TypeCache.ScanAssembly (203ms)
+			ScanForSourceGeneratedMonoScriptInfo (26ms)
+			ResolveRequiredComponents (10ms)
+	FinalizeReload (908ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (659ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (33ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (492ms)
+			ProcessInitializeOnLoadMethodAttributes (45ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
+Refreshing native plugins compatible for Editor in 1.84 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4363 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 31 unused Assets / (1.4 MB). Loaded Objects now: 4833.
+Memory consumption went from 150.0 MB to 148.6 MB.
+Total: 5.811599 ms (FindLiveObjects: 0.342537 ms CreateObjectMapping: 0.178876 ms MarkObjects: 3.941199 ms  DeleteObjects: 1.347965 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:CustomObjectIndexerAttribute: 232f87dd983dbecb2a4e21e08eb2cef8 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 3281.503922 seconds.
+  path: Assets/XR/XRGeneralSettingsPerBuildTarget.asset
+  artifactKey: Guid(a70dd9b1d8256ebd08f7d787b9d4c400) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettingsPerBuildTarget.asset using Guid(a70dd9b1d8256ebd08f7d787b9d4c400) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '3c93d677c5215d4e4433532256a5c62b') in 0.023878 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.001953 seconds.
+  path: Assets/XR/UserSimulationSettings
+  artifactKey: Guid(6d0a418d58149a23f96619aa18b2d9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/UserSimulationSettings using Guid(6d0a418d58149a23f96619aa18b2d9ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 12 workers.
+ -> (artifact id: '8442546fffe590746a13da351d2e0b2d') in 0.000642 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Prepare
+Caller must complete domain reload
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.527 seconds
+Native extension for LinuxStandalone target not found
+Native extension for Android target not found
+Native extension for WebGL target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+- Finished resetting the current domain, in  1.103 seconds
+Domain Reload Profiling: 1626ms
+	BeginReloadAssembly (150ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (4ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (47ms)
+	RebuildCommonClasses (42ms)
+	RebuildNativeTypeToScriptingClass (10ms)
+	initialDomainReloadingComplete (36ms)
+	LoadAllAssembliesAndSetupDomain (285ms)
+		LoadAssemblies (290ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (57ms)
+			TypeCache.Refresh (22ms)
+				TypeCache.ScanAssembly (10ms)
+			ScanForSourceGeneratedMonoScriptInfo (25ms)
+			ResolveRequiredComponents (9ms)
+	FinalizeReload (1103ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (657ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (32ms)
+			SetLoadedEditorAssemblies (5ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (78ms)
+			ProcessInitializeOnLoadAttributes (432ms)
+			ProcessInitializeOnLoadMethodAttributes (105ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 5.70 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4724 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 94 unused Assets / (1.5 MB). Loaded Objects now: 5146.
+Memory consumption went from 155.8 MB to 154.3 MB.
+Total: 7.332187 ms (FindLiveObjects: 0.271337 ms CreateObjectMapping: 0.163052 ms MarkObjects: 6.131624 ms  DeleteObjects: 0.764997 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MeshingSettings.cs: d678670c394f16fa3eeed53cbf456a8a -> 
+  custom:scripting/monoscript/fileName/DPadInteraction.cs: 93f85c8ba74c4199c8fc9b6e8c6fb8a6 -> 
+  custom:scripting/monoscript/fileName/MagicLeapPlaneSubsystem.cs: 7c04e8f0915ee730b58c2a0271954a32 -> 
+  custom:scripting/monoscript/fileName/OpenXRFeatureSettingsEditor.cs: 46f7bc9b6667349416d592c92274a2cd -> 
+  custom:scripting/monoscript/fileName/NSSet.cs: 098d266b3cb002bcc6684c45ea3290f5 -> 
+  custom:scripting/monoscript/fileName/Compatibility.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/ARKitEnvironmentProbeSubsystem.cs: 8af527cb50ca3ecd28b5d03806e1fb3d -> 
+  custom:scripting/monoscript/fileName/NSData.cs: ec6c861b296dc24c4a48dee7a7afd465 -> 
+  custom:scripting/monoscript/fileName/ARKitErrorCode.cs: 3d821f96562bc14cdc5a114c5d283722 -> 
+  custom:scripting/monoscript/fileName/Cli.cs: 31ba71519e4dc5db9bc938f421b8eeea -> f278fa05dc0a28f05b8e56cf7a587c31
+  custom:scripting/monoscript/fileName/RaycastResultState.cs: 2e30e043c1283dcb51d2b17e71c1c58c -> 
+  custom:scripting/monoscript/fileName/ARObjectInfo.cs: ef16ef70f79e71400f8091b686435018 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ARKitXRHumanBodySubsystem.cs: 4304eb2c1d5764d09093d1c97b27864e -> 
+  custom:scripting/monoscript/fileName/ARKitApi.cs: 59763cfe15340ad6a1424e1c61e2c638 -> 
+  custom:scripting/monoscript/fileName/UWPCoreWindowBuildHooks.cs: 528ee0545204f8083d130ec04efc78bc -> 
+  custom:scripting/monoscript/fileName/MLRaycastResult.cs: 3ce5782d2bebfd7605c4af1345f80da9 -> 
+  custom:scripting/monoscript/fileName/NSMutableString.cs: 049a8b994e2ba008607d86045721198f -> 
+  custom:scripting/monoscript/fileName/MagicLeapGestures.cs: 418615b34c48b0c216049210cc9fff02 -> 
+  custom:scripting/monoscript/fileName/ARKitSettingsProvider.cs: 1efef0f80ba7ce5269417b9703f528ca -> 
+  custom:scripting/monoscript/fileName/MagicLeapSettings.cs: 17e928daf1c1fb36a9939c09d4f77443 -> 
+  custom:scripting/monoscript/fileName/ARKitCameraSubsystem.cs: 104d0f557920c1e3c985c468ba85aada -> 
+  custom:scripting/monoscript/fileName/MetaQuestFeatureEditor.cs: fff340053bb2e94334d0d5989f2eb349 -> 
+  custom:scripting/monoscript/fileName/ARKitFocusRange.cs: 605fc2b6e2a2b0b4fbfb5793218ce663 -> 
+  custom:scripting/monoscript/fileName/DeviceCommands.cs: 030ff9d6f0b68cd391d8bc96364d7917 -> 
+  custom:scripting/monoscript/fileName/PackageInfo.cs: c733b1a6c5c639a40a3bcf6b2088dd26 -> 
+  custom:scripting/monoscript/fileName/PalmPoseInteraction.cs: 6bd25b6029acb9127f25748cb0b6d2a8 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.OpenXR.Editor: 3d54a849f823922584e46df22edda47d -> 
+  custom:scripting/monoscript/fileName/ARReferenceObject.cs: e7bab736f6293ae3a0c7aec585e126b7 -> 
+  custom:scripting/monoscript/fileName/OpenXRRuntime.cs: c3a00f9ce6a0283dcb391b83637adf44 -> 
+  custom:scripting/monoscript/fileName/ARKitImageDatabase.cs: de559c55768fca0707db09a20457bfce -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/MetaQuestTouchProControllerProfile.cs: 9fffae235d4c14901711127c7daeb86c -> 
+  custom:scripting/monoscript/fileName/ARKitCpuImageApi.cs: 98dd8eeba4ac784c65face7e6a4aa8b9 -> 
+  custom:scripting/monoscript/fileName/OpenXRConstants.cs: f878d042bd3999b796b9387b0c8a1032 -> 
+  custom:scripting/monoscript/fileName/ARKitBuildHelper.cs: 872709b1a6408a2e135ec5160a88edd4 -> 
+  custom:scripting/monoscript/fileName/OpenXRFeatureUICommon.cs: 45f7a59cd9c5cd84e28e0f7a429879c2 -> 
+  custom:scripting/monoscript/fileName/ARKitXRPointCloudSubsystem.cs: 1a98d6ea2178945bc88f07da5fcb6dfe -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.OpenXR.Features.OculusQuestSupport.Editor: c62b8d05b94c435029ef9fc43d7261ca -> 
+  custom:scripting/monoscript/fileName/OpenXRLoaderUI.cs: ebd8d704d5e26f054d43886c272cd005 -> 
+  custom:scripting/monoscript/fileName/MagicLeapAnchorSubsystem.cs: 6b92f01d667fa8d3498aceb2e2f49955 -> 
+  custom:scripting/monoscript/fileName/MLPlaneBoundariesList.cs: d791cee437481fe971b8c65f7febf40e -> 
+  custom:scripting/monoscript/fileName/ActivateGestureEvent.cs: d040d22d39e9ecd6a98653f1d64e4e27 -> 
+  custom:scripting/monoscript/fileName/ARKitFocus.cs: e50efe27bac31092d0fa898f410dfb25 -> 
+  custom:scripting/monoscript/fileName/MagicLeapFeatures.cs: c2579e88810d7c8e7391438c05d5b97c -> 
+  custom:scripting/monoscript/fileName/WaitForRestartFinish.cs: 0e76bf389cf347a5d8d6432ec661895f -> 
+  custom:scripting/monoscript/fileName/Privilege.cs: dd6d75a43851172aadce79e0fc54cde4 -> 
+  custom:scripting/monoscript/fileName/OpenXRFeatureSettings.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/OpenXRBuildProcessor.cs: 48dc0e114f75799c0d74bafe70808189 -> 
+  custom:scripting/monoscript/fileName/MagicLeapPackageMetadata.cs: 9ffddee5f92b576240175f2930a0de85 -> 
+  custom:scripting/monoscript/fileName/KHRSimpleControllerProfile.cs: bcdcb81587b2075f7af2f75706b9e69a -> 
+  custom:scripting/monoscript/fileName/HighResolutionCpuImagePromise.cs: c2ea6fa9dbf882239733f6f3621b57f6 -> 
+  custom:scripting/monoscript/fileName/OpenXRFeatureInternal.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/OpenXRSpaceSettings.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/DPadInteractionCustomEditor.cs: d93785eeae2b4d41d39f603bd6f9849d -> 
+  custom:scripting/monoscript/fileName/ARWorldMap.cs: 535b31ba5b9fbc6784647193390a0bc3 -> 
+  custom:scripting/monoscript/fileName/MagicLeapBuildProcessor.cs: 117933c3d1de72d884dcef481ff5e5fb -> 
+  custom:scripting/monoscript/fileName/EnvironmentProbeApi.cs: 765c557bbf45086a87ff78c8b7e46019 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.OpenXR.Features.RuntimeDebugger.Editor: e1cc4b3ad1ade1a1503c3d79a1cfcaf0 -> 
+  custom:scripting/monoscript/fileName/PlaneBoundary.cs: 634512e9c27730216bd14bea145250c3 -> 
+  custom:scripting/monoscript/fileName/ARKitParticipantSubsystem.cs: 5c60cbef6290b8ded8f808a96d691214 -> 
+  custom:scripting/monoscript/fileName/ConformanceAutomationFeature.cs: 97112e825fad9ed87f6a9c7acc231c0b -> 
+  custom:scripting/monoscript/fileName/NSBundle.cs: 33c6a2bcba03693ba508989eec17c560 -> 
+  custom:scripting/monoscript/fileName/MLPolygon.cs: 4a06c2043437d92eb54944e9a081b085 -> 
+  custom:scripting/monoscript/fileName/OpenXRLoaderInternal.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/precompiled-assembly-types:UnityEditor.XR.MagicLeap: 0373bbe657192d112d561b02d6bd2745 -> 
+  custom:scripting/monoscript/fileName/NativeView.cs: d619544ee47be895255e762f2535d032 -> 4afb79670cf27530a179f070ba3fe9aa
+  custom:scripting/monoscript/fileName/MagicLeapMeshSubsystemExtensions.cs: cd0fcd50d468cf528282ac1237cd697d -> 
+  custom:scripting/monoscript/fileName/MLRaycastQuery.cs: d1cb7e79d42204271b77a9ee248fcf06 -> 
+  custom:scripting/monoscript/fileName/NSKeyedUnarchiver.cs: d25f60b98ba9ad9e5c8d4737c2e9d9be -> 
+  custom:scripting/monoscript/fileName/FeatureHelpers.cs: 0e8d07707daeed1da30b1605e903226b -> 
+  custom:scripting/monoscript/fileName/ARKitReferenceObjectEntryEditor.cs: 2506e6d8cc515aef38f510b618954ae5 -> 
+  custom:scripting/monoscript/fileName/DebuggerState.cs: 41070b7a08cc178a9ea51324cdaf5b81 -> 
+  custom:scripting/monoscript/fileName/SDKUtility.cs: c638dd448251d2c8738cf7478e7d130d -> 
+  custom:scripting/monoscript/fileName/PlatformLevelSelector.cs: e075eaa2461e3d89780f006f974b74b1 -> 
+  custom:scripting/monoscript/fileName/MagicLeapConstants.cs: 9bd1e03b2a09a0e6d35f52da6d14ccc6 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.OpenXR.Features.MetaQuestSupport.Editor: 9829cba232beb755dc033ec3726e102e -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.OpenXR.Features.OculusQuestSupport: d15f77eecb71f285045ab68c6a5ab3aa -> 
+  custom:CustomObjectIndexerAttribute: 232f87dd983dbecb2a4e21e08eb2cef8 -> 
+  custom:scripting/monoscript/fileName/OpenXRHmd.cs: 1624687aa096b40d58d149d9c6304cca -> 
+  custom:scripting/monoscript/fileName/ARKitLoaderConstants.cs: fce2d3bcbeaadbe15e271ca20deef3d5 -> 
+  custom:scripting/monoscript/fileName/OpenXRMangementSettings.cs: 5a013b6c45b1e1d06085cb1496493b86 -> 
+  custom:scripting/monoscript/fileName/NSError.cs: cc8d1c8642eb0c09bbe5ce0dec94bd25 -> 
+  custom:scripting/monoscript/fileName/OculusTouchControllerProfile.cs: 03df51b5c781d1980f509408bae72bc8 -> 
+  custom:scripting/monoscript/fileName/ARKitXRDepthSubsystem.deprecated.cs: 1ef03a3ed5f405020f2a89bf6934da71 -> 
+  custom:scripting/monoscript/fileName/OpenXRNativeTypes.cs: 91cde5f962ea5dcb75652e72bac8769f -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MLPlane.cs: 10e174196ef29b6dcf9322afbbbd89a9 -> 
+  custom:scripting/monoscript/fileName/KnownFeatureSets.cs: 2cf391597f07a52473981e9cc2b41b67 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.OpenXR.Features.MockRuntime: e75d918d8106c27865ca5517b4bdd194 -> 
+  custom:scripting/monoscript/fileName/NSMutableData.cs: c7e9987227cce7611d6a05fe68c2cb77 -> 
+  custom:scripting/monoscript/fileName/ARKitRaycastSubsystem.cs: 623d9e732098000fc343642286dd9266 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.ARKit.Editor: dc1fa14db583effdf9ddd096181b476f -> 
+  custom:scripting/monoscript/fileName/OpenXRProjectValidationRulesSetup.cs: 63c520149123eced22b6028c5ebd9d08 -> 
+  custom:scripting/monoscript/fileName/ARKitImageTrackingProvider.cs: 70266a96d5ef2d399df3471877895e03 -> 
+  custom:scripting/monoscript/fileName/ARKitProjectValidationRules.cs: 092b6d2b9bcaa79400bc377e7f6aa83c -> 
+  custom:scripting/monoscript/fileName/ARKitExposureRange.cs: c1f31a49db9c26bd91165a1eb2673976 -> 
+  custom:scripting/monoscript/fileName/ARKitExposure.cs: 909299797d8c934da06a24e54a0fd31b -> 
+  custom:scripting/monoscript/fileName/ARKitLockedCamera.cs: f7a573d9a8bf893afef96708e9a0de75 -> 
+  custom:scripting/monoscript/fileName/MicrosoftHandInteraction.cs: dac920740153b0163dda0f7e56920e40 -> 
+  custom:scripting/monoscript/fileName/NativeChanges.cs: bb6bfd8c11abd0434837439c8e9e8520 -> 
+  custom:scripting/monoscript/fileName/GuidExtensions.cs: eba4d5f4f9e9e7d74fdb0e8dca26aeaa -> 44db2c6de632233215541342af9cfb6b
+  custom:scripting/monoscript/fileName/ARKitWhiteBalanceRange.cs: 4e0500ed849d219c4bbca4aafab67d48 -> 
+  custom:scripting/monoscript/fileName/DeviceLayouts.cs: 2c692460aaf580246dda5ac47f6cbebd -> 
+  custom:scripting/monoscript/fileName/SubsystemLifecycleManager.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/ARObject.cs: 2b0391e8a0699f597c6ab9944bace292 -> 
+  custom:scripting/monoscript/fileName/RcoApi.cs: 493da608ddf5924884153c701a7eb8a4 -> 1b7d1343bf82f11ff12a2ad830cbbf88
+  custom:scripting/monoscript/fileName/ARWorldMapRequestStatus.cs: 792f740e97daac3c301b3674d914cfd1 -> 
+  custom:scripting/monoscript/fileName/ARKitReferenceObjectEntry.cs: 50b4bbb259fa265e7cc07c069c67b13b -> 
+  custom:scripting/monoscript/fileName/RuntimeDebuggerWindow.cs: 0bc1d5ee7ce2553d42d62861471f3c44 -> 
+  custom:scripting/monoscript/fileName/ARKitSessionSubsystem.cs: c4ffd360918f486d1102082396f319cf -> 
+  custom:scripting/monoscript/fileName/PackageSettingsEditor.cs: 6212fddebb8f67c4da0f50592230839b -> 
+  custom:scripting/monoscript/fileName/OpenXRFeature.cs: acc85e9ee19694a3b824048be72ad0db -> 
+  custom:scripting/monoscript/fileName/PrivilegeGroup.cs: 0ccb674b5da3afa163a4f1b3128dd6b9 -> 
+  custom:scripting/monoscript/fileName/NSMutableSet.cs: 7f19e37a332cdb2db357441a81e88908 -> 
+  custom:scripting/monoscript/fileName/ModifyAndroidManifestMagicLeap.cs: 1ac4ec641076f18d4f49533953e0061f -> 
+  custom:scripting/monoscript/fileName/ARKitFaceSubsystem.cs: 8e1d6d99e8569e2f3b96d331d4479042 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.OpenXR: eed582293872c812041e2c98e72b372e -> 
+  custom:scripting/monoscript/fileName/OpenXRLoader.cs: 18020e98a4b26e822e0c5684b0251e04 -> 
+  custom:scripting/monoscript/fileName/PrivilegeParser.cs: 744869a65dda2d697b8cf033f01a0a02 -> 
+  custom:scripting/monoscript/fileName/RenderingSettings.cs: 8172f97c0177162ae82d3c0a841e9acb -> 
+  custom:scripting/monoscript/fileName/ValveIndexControllerProfile.cs: f923b1771c835a70375d3505e818878d -> 
+  custom:scripting/monoscript/fileName/OculusQuestFeatureEditor.cs: af70b82209b4cf6ce20a2da2892dfc5f -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/NoniOSBuildProcessor.cs: 8a77f4649f6e33ca5b76785cb4db8d2e -> 
+  custom:scripting/monoscript/fileName/OpenXRChooseRuntimeLibraries.cs: 3923c2f1337a35d737ad0192eb46b432 -> 
+  custom:scripting/monoscript/fileName/NSUUID.cs: a2a48608e44bc8cbb62b1a99cdddf252 -> 
+  custom:scripting/monoscript/fileName/GestureId.cs: 889e58a95e1fdbd39b9a9469d81578fd -> 
+  custom:scripting/monoscript/fileName/OculusQuestFeature.cs: 041c3418dd65b8e99ca410c708996814 -> 
+  custom:scripting/monoscript/fileName/OpenXRFeatureSetManager.cs: 4f340a53d115a7e1888d00ddc4cd614b -> 
+  custom:scripting/monoscript/fileName/ARKitMeshSubsystemExtensions.cs: 3e25dd45e046da470c67f5ff164033d8 -> 
+  custom:scripting/monoscript/fileName/ARResource.cs: 253021c341563245137d0d1807d7d3a7 -> 
+  custom:scripting/monoscript/fileName/ARResourceGroup.cs: e87d95c296ad5814eea9f15988d0d4ec -> 
+  custom:scripting/monoscript/fileName/MagicLeapTextureTools.cs: c96d5b6c5749b2a2ac0599b50b37f4d6 -> 
+  custom:scripting/monoscript/fileName/OpenXRUtility.cs: af9b8bca68ffa2bc69f78ec0da9cf1fd -> 
+  custom:scripting/monoscript/fileName/Json.cs: 1754629c8da2614ba9a140f443c1fee3 -> 
+  custom:scripting/monoscript/fileName/NSString.cs: 4b17525e31f4d1759345de2778542bbc -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/CoreLocationErrorCode.cs: 3d821f96562bc14cdc5a114c5d283722 -> 
+  custom:scripting/monoscript/fileName/RenderingJobs.cs: 486cd43a9f6e281c4ac4467ca93c1212 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:scripting/monoscript/fileName/ARKitLoader.cs: 9566bc0749d86b04eda11fadbc1c73e4 -> 
+  custom:scripting/monoscript/fileName/ReflectionUtility.cs: f1a59395564a00ae5db81d3d7c624e3c -> 
+  custom:scripting/monoscript/fileName/InputLayoutLoader.cs: 7bd4a41fe0978a7843fe795393af7800 -> 2980c1660657b98176f57e2070c5cb69
+  custom:scripting/monoscript/fileName/MockRuntime.cs: 8e970d93da4762c7d57e9c9dd2b36dbb -> 
+  custom:scripting/monoscript/fileName/XRGestureSubsystemDescriptor.cs: 835a7e1c0a8017b485105bdb6334d753 -> 
+  custom:scripting/monoscript/fileName/OpenXRDevice.cs: 1b3be9b024fb29351711164fb0577202 -> 
+  custom:scripting/monoscript/fileName/HTCViveControllerProfile.cs: 575b921c71649e99576a05f0add9cf5d -> 
+  custom:scripting/monoscript/fileName/NativeFixedList.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.InteractionSubsystems: a788c54b434fa035ecb95bdefa428054 -> 
+  custom:scripting/monoscript/fileName/MagicLeapLoaderUI.cs: 46caf43b930fa6d9c48c1648d0d7ba27 -> 
+  custom:scripting/monoscript/fileName/CameraEnforcement.cs: e84417ad5e3c9235f9e86ebdb8eab3bf -> 
+  custom:scripting/monoscript/fileName/ARKitXROcclusionSubsystem.cs: 8e15bbfc2ac6e0b7dc96156a2a0c7b0f -> 
+  custom:scripting/monoscript/fileName/BootConfigBuilder.cs: a174d8870c7a69fabc7d42a75b0f23aa -> 
+  custom:scripting/monoscript/fileName/SerializedARCollaborationData.cs: 88772a290c97e67dfe62fea20b494cf7 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.OpenXR.Features.RuntimeDebugger: 81fc02b8029ab9c0bce4eaa33a13e7d8 -> 
+  custom:scripting/monoscript/fileName/NSEnumerator.cs: 7ae7a9acfc175f9850f97ed013532b28 -> 
+  custom:scripting/monoscript/fileName/OpenXRRenderSettings.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/EyeGazeInteraction.cs: dc1f12620c8656649cfc16f13969f5fa -> 
+  custom:scripting/monoscript/fileName/OpenXRAnalytics.cs: 67d5de80ae8e3ee46bb1b4907783d54c -> 
+  custom:scripting/monoscript/fileName/MicrosoftMotionControllerProfile.cs: 6dcaa2067404bed7771687f2f9dfa057 -> 
+  custom:scripting/monoscript/fileName/OpenXRRestarter.cs: c236f3f43c026f409512d203b81e6184 -> 
+  custom:scripting/monoscript/fileName/MLSpatialMapperEditor.cs: 0038d29e4a958d5a4c14ca6ebe1c77ef -> 
+  custom:scripting/monoscript/fileName/OpenXRFeatureAttribute.cs: cb6dde4b346c754b123a290cdf928c65 -> 
+  custom:scripting/monoscript/fileName/MagicLeapFeatureUsages.cs: a3dff8a6aaf7a9ee352f50a33ab90e7b -> 
+  custom:scripting/monoscript/fileName/OSVersion.cs: c26d29e3c9f69d5e80a30113ba0840c1 -> 
+  custom:scripting/monoscript/fileName/OpenXRLoaderNoPreInit.cs: 8f7a064e1e0bb6e17b9f5d171fe53dfc -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.OpenXR.Features.ConformanceAutomation: daaea684d78afe5278ff971b66e0fbf9 -> 
+  custom:scripting/monoscript/fileName/MagicLeapLoader.cs: 5c561ec9ebaed7cdeaebf52ce4ca3c06 -> 
+  custom:scripting/monoscript/fileName/HandCommonPosesInteraction.cs: c984aa78f460c3bf39ec56bc9a0a414a -> 
+  custom:scripting/monoscript/fileName/MagicLeapSettingsEditor.cs: 708902e3958ca71d3a3fe96fd9cd0de8 -> 
+  custom:scripting/monoscript/fileName/OpenXRDiagnosticReport.cs: f43e8307d90025ed39c346ed63d1208d -> 
+  custom:scripting/monoscript/fileName/RuntimeDebuggerOpenXRFeatureEditor.cs: 26a9be57964b520d3a47d8c20db877e9 -> 
+  custom:scripting/monoscript/fileName/ARKitReferenceObjectLibraryBuildProcessor.cs: 93b66a33e41305487df4f01f3976004f -> 
+  custom:scripting/monoscript/fileName/PoseControl.cs: 4ff0d325328ef40fb1693e34ac3358bf -> 26044499bf9bfd77ab38d92d33de1d80
+  custom:scripting/monoscript/fileName/OpenXRFeatureBuildHooks.cs: da31756dd3c74e69bcd7ed1a1983ed53 -> 
+  custom:scripting/monoscript/fileName/PlaneBoundaryCollection.cs: 88a2624e7643234291490b5b8ff9f27a -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.ARKit.FaceTracking: 2a32fe14095b360ca9ed147978543786 -> 
+  custom:scripting/monoscript/fileName/TransformPlaneBoundaryJob.cs: 06a3c7f18568a9fc4da262c4fc1aee52 -> 
+  custom:scripting/monoscript/fileName/CopyPlaneResultsJob.cs: 2bff733f6822661d030d8b2ee148b6a6 -> 
+  custom:scripting/monoscript/fileName/RaycastQuery.cs: ea0012fa91b5da10a8163ce058a59659 -> 
+  custom:scripting/monoscript/fileName/ARKitSessionDelegate.cs: 92167da65f4a7b70b8ec22bb76b6f97d -> 
+  custom:scripting/monoscript/fileName/Plist.cs: e32bdb6a2be6b1613d7ae3f68cfd293e -> 
+  custom:scripting/monoscript/fileName/HPReverbG2ControllerProfile.cs: 6aadb5e22feaccfa77ef6db6c4d4541c -> 
+  custom:scripting/monoscript/fileName/MLPlanesQuery.cs: 82ddd517a76b896f697389267fbcc2f8 -> 
+  custom:scripting/monoscript/fileName/ACTool.cs: 308bd8dc79489039ac10efca37701614 -> 
+  custom:scripting/monoscript/fileName/ARKitXRPlaneSubsystem.cs: f141f15b3f7016df0749d59bbaa0b821 -> 
+  custom:scripting/monoscript/fileName/MLPlaneBoundary.cs: cc9ab7fee61a0db9618e3f96b400cf5c -> 
+  custom:scripting/monoscript/fileName/XRGestureSubsystem.cs: d8c802e3daa83e625478817096d93364 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/BootConfig.cs: b2c4d54615a39b14509e601dd0f329ff -> 
+  custom:scripting/monoscript/fileName/NSURL.cs: 6eee528143aa2d877ecdbfb27588d8ef -> 
+  custom:scripting/monoscript/fileName/AsyncRaycastResult.cs: c95849ebdae3c4e888a712b354b28545 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ARKitLoaderSettings.cs: d83572ff51089ed09dfd27bdeb2d492e -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.OpenXR.Features.MetaQuestSupport: 4f75ff147337f170aa3de9eec80b973a -> 
+  custom:scripting/monoscript/fileName/ARCollaborationData.cs: b720af7da1c38b4a15a7edcd5d57aad5 -> 
+  custom:scripting/monoscript/fileName/MagicLeapLogger.cs: 672d01ee1afe55703becd16c7bacf023 -> 
+  custom:scripting/monoscript/fileName/ARKitReferenceImageLibraryBuildProcessor.cs: 6206184ff51fdbb59444c7686bf1d502 -> 
+  custom:scripting/monoscript/fileName/MemoryLayout.cs: 208b49c4a6462b579f74c37c3850b6b8 -> 
+  custom:scripting/monoscript/fileName/DefaultARKitSessionDelegate.cs: b256ddd30ccb65d7345ca2780668fa00 -> 
+  custom:scripting/monoscript/fileName/ARKitAnchorSubsystem.cs: acf2c2f617175e55839b7d99f11160fa -> 
+  custom:scripting/monoscript/fileName/RenderingUtility.cs: 9b3029b3cd3e3c983bc1457a48454c3a -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.ARKit: 6fc204d7aeb2fb82d33fc774a231fabd -> 
+  custom:scripting/monoscript/fileName/MagicLeapInput.cs: 3ef8fe5b88c94c89ea284252fb26ba61 -> 
+  custom:scripting/monoscript/fileName/XrPerformanceSettingsFeature.cs: d323744d9bc61085862cbc785e1f985c -> 
+  custom:scripting/monoscript/fileName/OpenXRPackageSettings.cs: 4f4aaba453bf105fb1c3c3d64247142d -> 
+  custom:scripting/monoscript/fileName/ModifyAndroidManifestMeta.cs: 3b920058e4dd8cbdb95cce4af271f981 -> 
+  custom:scripting/monoscript/fileName/OpenXRFeatureSetAttribute.cs: 9e20f05fe0a3688af8836175869f0bb7 -> 
+  custom:scripting/monoscript/fileName/FoveatedRenderingFeature.cs: 3cd591174f2fee5d1b0d6a1875383a9b -> 
+  custom:scripting/monoscript/fileName/HapticControl.cs: d7a5389cafde2a1337c58e2f0d91a837 -> 
+  custom:scripting/monoscript/fileName/MLSpatialMapper.cs: a912dcf81e6a3c9fb88977717b63922b -> 
+  custom:scripting/monoscript/fileName/MetaQuestFeature.cs: b9c317336250afc5bb5fa2c2df269ea6 -> 
+  custom:scripting/monoscript/fileName/ARKitBlendShapeCoefficient.cs: 2662429e57f8b429b2d2195362d507ba -> 
+  custom:scripting/monoscript/fileName/MagicLeapPerformance.cs: 6d8c51add14bf3e528c9d2ca29578449 -> 
+  custom:scripting/monoscript/fileName/ReferenceFrame.cs: 28dade84cf412fb2acc68a5d6a3e58a8 -> 
+  custom:scripting/monoscript/fileName/MLCoordinateFrameUID.cs: 8f3adf5b57f78f686499b45ba6493437 -> 
+  custom:scripting/monoscript/fileName/ARWorldMapRequest.cs: fec2d159e737171beafd9e9ef3a149f0 -> 
+  custom:scripting/monoscript/fileName/ARKitSettings.cs: 2e6831a5464c7730d88b18adacbff2e7 -> 
+  custom:scripting/monoscript/fileName/XrPerformanceSettingsTypes.cs: 5bc9c5b4646eff91646254ce341c6683 -> 
+  custom:scripting/monoscript/fileName/OpenXRRuntimeSelector.cs: 976a19637455f3c9d6af12ad00b783e3 -> 
+  custom:scripting/monoscript/fileName/OpenXRFeatureEditor.cs: 01dd3fecc4e9c7ce9fb6af5d0948ba2a -> 
+  custom:scripting/monoscript/fileName/ARObjectImporter.cs: 12ea4b768b87597d1049ad6a6e22535f -> 
+  custom:scripting/monoscript/fileName/ARReferenceImage.cs: d2b289b553abce0b157f78ade4b7160a -> 
+  custom:scripting/monoscript/fileName/BuildHelperUtils.cs: 4c87e77ddf5daceef87bee82211bd468 -> 
+  custom:scripting/monoscript/fileName/MLPlanesQueryFlags.cs: 8a4c0273ac303eb8007bbac5a5646b68 -> 
+  custom:scripting/monoscript/fileName/HandInteractionProfile.cs: 9c7649bd495ee99cc73ddacbe0a8cd95 -> 
+  custom:scripting/monoscript/fileName/NativeCopyUtility.cs: 56827e9f3645a7dc548850dac2be1d04 -> c7fbc9feb0e47601484d6e44770e756a
+  custom:scripting/monoscript/fileName/MagicLeapGestureSubsystem.cs: 465d81657a2e9789831c33bd885f6ba8 -> 
+  custom:scripting/monoscript/fileName/ARKitXRObjectTrackingSubsystem.cs: afa118c408f289b1194863e0620d7c89 -> 
+  custom:scripting/monoscript/fileName/NSObject.cs: 47a68035f42526503e5cfe852ae2787e -> 
+  custom:scripting/monoscript/fileName/ARKitPackageMetadata.cs: a48c5ac3d437f3a26f1015c7663ff8d3 -> 
+  custom:scripting/monoscript/fileName/MagicLeapTexturePostprocessor.cs: 229b19acefc7cd2e8f5ef676c197327f -> 
+  custom:scripting/precompiled-assembly-types:UnityEngine.XR.MagicLeap: 12a3bb97506fd18753a23eee143396af -> 
+  custom:scripting/monoscript/fileName/ManagedImageReference.cs: 172aecc70030141966d1673636bf2adb -> 
+  custom:scripting/monoscript/fileName/ModifyAndroidManifestOculus.cs: 1d09740e7edd66fffc5895aae9e385d3 -> 
+  custom:scripting/monoscript/fileName/ConvexHullGenerator.cs: 98d045c71cbcf681fbc79b74983999cd -> 
+  custom:scripting/monoscript/fileName/MLResult.cs: 36f227f2bd81bb9075d01db9623cea5e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MagicLeapTouchpadGestureEvent.cs: 1e3d94ff446b61969ce28972809d2057 -> 
+  custom:scripting/monoscript/fileName/RuntimeDebuggerOpenXRFeature.cs: 8b269b64ad1c99e85d7f28185c15f7bb -> 
+  custom:scripting/monoscript/fileName/MagicLeapProjectValidationRulesSetup.cs: 6775e87e7a0a79b72db857117028c10e -> 
+  custom:scripting/monoscript/fileName/Constants.cs: 75be6823bea7bba4b20fd83fa3214be7 -> fa6d96fdd2d7e3c2764da033a501daf2
+  custom:scripting/monoscript/fileName/XcodeAssetCatalog.cs: 8c659c67703d125b0b61ba1cf9ce18bc -> 
+  custom:scripting/monoscript/fileName/PerceptionHandle.cs: 6036c0b86bd787d273cb36a902a3bef3 -> 
+  custom:scripting/monoscript/fileName/MLRaycastResultState.cs: e3c656180e1f75577bc820e5c11e38e6 -> 
+  custom:scripting/monoscript/fileName/MetaQuestFeatureBuildHooks.cs: 2ac755c66ffd4e4b7c22530386a7ba47 -> 
+  custom:scripting/monoscript/fileName/ARCollaborationDataBuilder.cs: 20629fed665cfc3003083add96036680 -> 
+  custom:scripting/monoscript/fileName/Class.cs: 3c64dd8d831d661c84a0cc416ae1ccd4 -> a840b0029b5e65572133651481a63ce4
+  custom:scripting/monoscript/fileName/OpenXRInput.cs: b351db87f98ee399e568b78e0ed353e3 -> 
+  custom:scripting/monoscript/fileName/MagicLeapRaycastSubsystem.cs: 7649ffe431536f7a3579c35592e4c312 -> 
+  custom:scripting/monoscript/fileName/OpenXRInteractionFeature.cs: a60484418ad6b497996467bb6f98db73 -> 
+  custom:scripting/monoscript/fileName/MagicLeapSessionSubsystem.cs: 13485b25c472222503799bc19de7bbab -> 
+  custom:scripting/monoscript/fileName/ARKitWhiteBalanceGains.cs: 6bb317a65418adeb068551a0f3277609 -> 
+  custom:scripting/monoscript/fileName/ARKitBuildProcessor.cs: fb4696d7a9eb7f16f564442398f5e730 -> 
+  custom:scripting/monoscript/fileName/OpenXRSettings.cs: f8ff4c7422697fc56884f260233aaf86 -> 
+  custom:scripting/monoscript/fileName/MagicLeapProjectValidation.cs: 7ddee2e6f32f519df7f9245cdfc07c50 -> 
+  custom:scripting/monoscript/fileName/OpenXREditorSettings.cs: 321e3a8126bc4b0248cbcecf63892f31 -> 
+  custom:scripting/monoscript/fileName/OpenXRProjectValidation.cs: 181508e149a91a64c6dfdc447b97c322 -> 
+  custom:scripting/monoscript/fileName/MLPlaneBoundaries.cs: b0e11c685a9b8a0b4e868d4afff8bd90 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 4.96 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (1.5 MB). Loaded Objects now: 5146.
+Memory consumption went from 81.8 MB to 80.3 MB.
+Total: 5.729418 ms (FindLiveObjects: 0.291727 ms CreateObjectMapping: 0.203226 ms MarkObjects: 3.924165 ms  DeleteObjects: 1.308921 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MeshingSettings.cs: d678670c394f16fa3eeed53cbf456a8a -> 
+  custom:scripting/monoscript/fileName/DPadInteraction.cs: 93f85c8ba74c4199c8fc9b6e8c6fb8a6 -> 
+  custom:scripting/monoscript/fileName/MagicLeapPlaneSubsystem.cs: 7c04e8f0915ee730b58c2a0271954a32 -> 
+  custom:scripting/monoscript/fileName/OpenXRFeatureSettingsEditor.cs: 46f7bc9b6667349416d592c92274a2cd -> 
+  custom:scripting/monoscript/fileName/NSSet.cs: 098d266b3cb002bcc6684c45ea3290f5 -> 
+  custom:scripting/monoscript/fileName/Compatibility.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/ARKitEnvironmentProbeSubsystem.cs: 8af527cb50ca3ecd28b5d03806e1fb3d -> 
+  custom:scripting/monoscript/fileName/NSData.cs: ec6c861b296dc24c4a48dee7a7afd465 -> 
+  custom:scripting/monoscript/fileName/ARKitErrorCode.cs: 3d821f96562bc14cdc5a114c5d283722 -> 
+  custom:scripting/monoscript/fileName/Cli.cs: 31ba71519e4dc5db9bc938f421b8eeea -> f278fa05dc0a28f05b8e56cf7a587c31
+  custom:scripting/monoscript/fileName/RaycastResultState.cs: 2e30e043c1283dcb51d2b17e71c1c58c -> 
+  custom:scripting/monoscript/fileName/ARObjectInfo.cs: ef16ef70f79e71400f8091b686435018 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ARKitXRHumanBodySubsystem.cs: 4304eb2c1d5764d09093d1c97b27864e -> 
+  custom:scripting/monoscript/fileName/ARKitApi.cs: 59763cfe15340ad6a1424e1c61e2c638 -> 
+  custom:scripting/monoscript/fileName/UWPCoreWindowBuildHooks.cs: 528ee0545204f8083d130ec04efc78bc -> 
+  custom:scripting/monoscript/fileName/MLRaycastResult.cs: 3ce5782d2bebfd7605c4af1345f80da9 -> 
+  custom:scripting/monoscript/fileName/NSMutableString.cs: 049a8b994e2ba008607d86045721198f -> 
+  custom:scripting/monoscript/fileName/MagicLeapGestures.cs: 418615b34c48b0c216049210cc9fff02 -> 
+  custom:scripting/monoscript/fileName/ARKitSettingsProvider.cs: 1efef0f80ba7ce5269417b9703f528ca -> 
+  custom:scripting/monoscript/fileName/MagicLeapSettings.cs: 17e928daf1c1fb36a9939c09d4f77443 -> 
+  custom:scripting/monoscript/fileName/ARKitCameraSubsystem.cs: 104d0f557920c1e3c985c468ba85aada -> 
+  custom:scripting/monoscript/fileName/MetaQuestFeatureEditor.cs: fff340053bb2e94334d0d5989f2eb349 -> 
+  custom:scripting/monoscript/fileName/ARKitFocusRange.cs: 605fc2b6e2a2b0b4fbfb5793218ce663 -> 
+  custom:scripting/monoscript/fileName/DeviceCommands.cs: 030ff9d6f0b68cd391d8bc96364d7917 -> 
+  custom:scripting/monoscript/fileName/PackageInfo.cs: c733b1a6c5c639a40a3bcf6b2088dd26 -> 
+  custom:scripting/monoscript/fileName/PalmPoseInteraction.cs: 6bd25b6029acb9127f25748cb0b6d2a8 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.OpenXR.Editor: 3d54a849f823922584e46df22edda47d -> 
+  custom:scripting/monoscript/fileName/ARReferenceObject.cs: e7bab736f6293ae3a0c7aec585e126b7 -> 
+  custom:scripting/monoscript/fileName/OpenXRRuntime.cs: c3a00f9ce6a0283dcb391b83637adf44 -> 
+  custom:scripting/monoscript/fileName/ARKitImageDatabase.cs: de559c55768fca0707db09a20457bfce -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/MetaQuestTouchProControllerProfile.cs: 9fffae235d4c14901711127c7daeb86c -> 
+  custom:scripting/monoscript/fileName/ARKitCpuImageApi.cs: 98dd8eeba4ac784c65face7e6a4aa8b9 -> 
+  custom:scripting/monoscript/fileName/OpenXRConstants.cs: f878d042bd3999b796b9387b0c8a1032 -> 
+  custom:scripting/monoscript/fileName/ARKitBuildHelper.cs: 872709b1a6408a2e135ec5160a88edd4 -> 
+  custom:scripting/monoscript/fileName/OpenXRFeatureUICommon.cs: 45f7a59cd9c5cd84e28e0f7a429879c2 -> 
+  custom:scripting/monoscript/fileName/ARKitXRPointCloudSubsystem.cs: 1a98d6ea2178945bc88f07da5fcb6dfe -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.OpenXR.Features.OculusQuestSupport.Editor: c62b8d05b94c435029ef9fc43d7261ca -> 
+  custom:scripting/monoscript/fileName/OpenXRLoaderUI.cs: ebd8d704d5e26f054d43886c272cd005 -> 
+  custom:scripting/monoscript/fileName/MagicLeapAnchorSubsystem.cs: 6b92f01d667fa8d3498aceb2e2f49955 -> 
+  custom:scripting/monoscript/fileName/MLPlaneBoundariesList.cs: d791cee437481fe971b8c65f7febf40e -> 
+  custom:scripting/monoscript/fileName/ActivateGestureEvent.cs: d040d22d39e9ecd6a98653f1d64e4e27 -> 
+  custom:scripting/monoscript/fileName/ARKitFocus.cs: e50efe27bac31092d0fa898f410dfb25 -> 
+  custom:scripting/monoscript/fileName/MagicLeapFeatures.cs: c2579e88810d7c8e7391438c05d5b97c -> 
+  custom:scripting/monoscript/fileName/WaitForRestartFinish.cs: 0e76bf389cf347a5d8d6432ec661895f -> 
+  custom:scripting/monoscript/fileName/Privilege.cs: dd6d75a43851172aadce79e0fc54cde4 -> 
+  custom:scripting/monoscript/fileName/OpenXRFeatureSettings.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/OpenXRBuildProcessor.cs: 48dc0e114f75799c0d74bafe70808189 -> 
+  custom:scripting/monoscript/fileName/MagicLeapPackageMetadata.cs: 9ffddee5f92b576240175f2930a0de85 -> 
+  custom:scripting/monoscript/fileName/KHRSimpleControllerProfile.cs: bcdcb81587b2075f7af2f75706b9e69a -> 
+  custom:scripting/monoscript/fileName/HighResolutionCpuImagePromise.cs: c2ea6fa9dbf882239733f6f3621b57f6 -> 
+  custom:scripting/monoscript/fileName/OpenXRFeatureInternal.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/OpenXRSpaceSettings.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/DPadInteractionCustomEditor.cs: d93785eeae2b4d41d39f603bd6f9849d -> 
+  custom:scripting/monoscript/fileName/ARWorldMap.cs: 535b31ba5b9fbc6784647193390a0bc3 -> 
+  custom:scripting/monoscript/fileName/MagicLeapBuildProcessor.cs: 117933c3d1de72d884dcef481ff5e5fb -> 
+  custom:scripting/monoscript/fileName/EnvironmentProbeApi.cs: 765c557bbf45086a87ff78c8b7e46019 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.OpenXR.Features.RuntimeDebugger.Editor: e1cc4b3ad1ade1a1503c3d79a1cfcaf0 -> 
+  custom:scripting/monoscript/fileName/PlaneBoundary.cs: 634512e9c27730216bd14bea145250c3 -> 
+  custom:scripting/monoscript/fileName/ARKitParticipantSubsystem.cs: 5c60cbef6290b8ded8f808a96d691214 -> 
+  custom:scripting/monoscript/fileName/ConformanceAutomationFeature.cs: 97112e825fad9ed87f6a9c7acc231c0b -> 
+  custom:scripting/monoscript/fileName/NSBundle.cs: 33c6a2bcba03693ba508989eec17c560 -> 
+  custom:scripting/monoscript/fileName/MLPolygon.cs: 4a06c2043437d92eb54944e9a081b085 -> 
+  custom:scripting/monoscript/fileName/OpenXRLoaderInternal.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/precompiled-assembly-types:UnityEditor.XR.MagicLeap: 0373bbe657192d112d561b02d6bd2745 -> 
+  custom:scripting/monoscript/fileName/NativeView.cs: d619544ee47be895255e762f2535d032 -> 4afb79670cf27530a179f070ba3fe9aa
+  custom:scripting/monoscript/fileName/MagicLeapMeshSubsystemExtensions.cs: cd0fcd50d468cf528282ac1237cd697d -> 
+  custom:scripting/monoscript/fileName/MLRaycastQuery.cs: d1cb7e79d42204271b77a9ee248fcf06 -> 
+  custom:scripting/monoscript/fileName/NSKeyedUnarchiver.cs: d25f60b98ba9ad9e5c8d4737c2e9d9be -> 
+  custom:scripting/monoscript/fileName/FeatureHelpers.cs: 0e8d07707daeed1da30b1605e903226b -> 
+  custom:scripting/monoscript/fileName/ARKitReferenceObjectEntryEditor.cs: 2506e6d8cc515aef38f510b618954ae5 -> 
+  custom:scripting/monoscript/fileName/DebuggerState.cs: 41070b7a08cc178a9ea51324cdaf5b81 -> 
+  custom:scripting/monoscript/fileName/SDKUtility.cs: c638dd448251d2c8738cf7478e7d130d -> 
+  custom:scripting/monoscript/fileName/PlatformLevelSelector.cs: e075eaa2461e3d89780f006f974b74b1 -> 
+  custom:scripting/monoscript/fileName/MagicLeapConstants.cs: 9bd1e03b2a09a0e6d35f52da6d14ccc6 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.OpenXR.Features.MetaQuestSupport.Editor: 9829cba232beb755dc033ec3726e102e -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.OpenXR.Features.OculusQuestSupport: d15f77eecb71f285045ab68c6a5ab3aa -> 
+  custom:CustomObjectIndexerAttribute: 232f87dd983dbecb2a4e21e08eb2cef8 -> 
+  custom:scripting/monoscript/fileName/OpenXRHmd.cs: 1624687aa096b40d58d149d9c6304cca -> 
+  custom:scripting/monoscript/fileName/ARKitLoaderConstants.cs: fce2d3bcbeaadbe15e271ca20deef3d5 -> 
+  custom:scripting/monoscript/fileName/OpenXRMangementSettings.cs: 5a013b6c45b1e1d06085cb1496493b86 -> 
+  custom:scripting/monoscript/fileName/NSError.cs: cc8d1c8642eb0c09bbe5ce0dec94bd25 -> 
+  custom:scripting/monoscript/fileName/OculusTouchControllerProfile.cs: 03df51b5c781d1980f509408bae72bc8 -> 
+  custom:scripting/monoscript/fileName/ARKitXRDepthSubsystem.deprecated.cs: 1ef03a3ed5f405020f2a89bf6934da71 -> 
+  custom:scripting/monoscript/fileName/OpenXRNativeTypes.cs: 91cde5f962ea5dcb75652e72bac8769f -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MLPlane.cs: 10e174196ef29b6dcf9322afbbbd89a9 -> 
+  custom:scripting/monoscript/fileName/KnownFeatureSets.cs: 2cf391597f07a52473981e9cc2b41b67 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.OpenXR.Features.MockRuntime: e75d918d8106c27865ca5517b4bdd194 -> 
+  custom:scripting/monoscript/fileName/NSMutableData.cs: c7e9987227cce7611d6a05fe68c2cb77 -> 
+  custom:scripting/monoscript/fileName/ARKitRaycastSubsystem.cs: 623d9e732098000fc343642286dd9266 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.ARKit.Editor: dc1fa14db583effdf9ddd096181b476f -> 
+  custom:scripting/monoscript/fileName/OpenXRProjectValidationRulesSetup.cs: 63c520149123eced22b6028c5ebd9d08 -> 
+  custom:scripting/monoscript/fileName/ARKitImageTrackingProvider.cs: 70266a96d5ef2d399df3471877895e03 -> 
+  custom:scripting/monoscript/fileName/ARKitProjectValidationRules.cs: 092b6d2b9bcaa79400bc377e7f6aa83c -> 
+  custom:scripting/monoscript/fileName/ARKitExposureRange.cs: c1f31a49db9c26bd91165a1eb2673976 -> 
+  custom:scripting/monoscript/fileName/ARKitExposure.cs: 909299797d8c934da06a24e54a0fd31b -> 
+  custom:scripting/monoscript/fileName/ARKitLockedCamera.cs: f7a573d9a8bf893afef96708e9a0de75 -> 
+  custom:scripting/monoscript/fileName/MicrosoftHandInteraction.cs: dac920740153b0163dda0f7e56920e40 -> 
+  custom:scripting/monoscript/fileName/NativeChanges.cs: bb6bfd8c11abd0434837439c8e9e8520 -> 
+  custom:scripting/monoscript/fileName/GuidExtensions.cs: eba4d5f4f9e9e7d74fdb0e8dca26aeaa -> 44db2c6de632233215541342af9cfb6b
+  custom:scripting/monoscript/fileName/ARKitWhiteBalanceRange.cs: 4e0500ed849d219c4bbca4aafab67d48 -> 
+  custom:scripting/monoscript/fileName/DeviceLayouts.cs: 2c692460aaf580246dda5ac47f6cbebd -> 
+  custom:scripting/monoscript/fileName/SubsystemLifecycleManager.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/ARObject.cs: 2b0391e8a0699f597c6ab9944bace292 -> 
+  custom:scripting/monoscript/fileName/RcoApi.cs: 493da608ddf5924884153c701a7eb8a4 -> 1b7d1343bf82f11ff12a2ad830cbbf88
+  custom:scripting/monoscript/fileName/ARWorldMapRequestStatus.cs: 792f740e97daac3c301b3674d914cfd1 -> 
+  custom:scripting/monoscript/fileName/ARKitReferenceObjectEntry.cs: 50b4bbb259fa265e7cc07c069c67b13b -> 
+  custom:scripting/monoscript/fileName/RuntimeDebuggerWindow.cs: 0bc1d5ee7ce2553d42d62861471f3c44 -> 
+  custom:scripting/monoscript/fileName/ARKitSessionSubsystem.cs: c4ffd360918f486d1102082396f319cf -> 
+  custom:scripting/monoscript/fileName/PackageSettingsEditor.cs: 6212fddebb8f67c4da0f50592230839b -> 
+  custom:scripting/monoscript/fileName/OpenXRFeature.cs: acc85e9ee19694a3b824048be72ad0db -> 
+  custom:scripting/monoscript/fileName/PrivilegeGroup.cs: 0ccb674b5da3afa163a4f1b3128dd6b9 -> 
+  custom:scripting/monoscript/fileName/NSMutableSet.cs: 7f19e37a332cdb2db357441a81e88908 -> 
+  custom:scripting/monoscript/fileName/ModifyAndroidManifestMagicLeap.cs: 1ac4ec641076f18d4f49533953e0061f -> 
+  custom:scripting/monoscript/fileName/ARKitFaceSubsystem.cs: 8e1d6d99e8569e2f3b96d331d4479042 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.OpenXR: eed582293872c812041e2c98e72b372e -> 
+  custom:scripting/monoscript/fileName/OpenXRLoader.cs: 18020e98a4b26e822e0c5684b0251e04 -> 
+  custom:scripting/monoscript/fileName/PrivilegeParser.cs: 744869a65dda2d697b8cf033f01a0a02 -> 
+  custom:scripting/monoscript/fileName/RenderingSettings.cs: 8172f97c0177162ae82d3c0a841e9acb -> 
+  custom:scripting/monoscript/fileName/ValveIndexControllerProfile.cs: f923b1771c835a70375d3505e818878d -> 
+  custom:scripting/monoscript/fileName/OculusQuestFeatureEditor.cs: af70b82209b4cf6ce20a2da2892dfc5f -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/NoniOSBuildProcessor.cs: 8a77f4649f6e33ca5b76785cb4db8d2e -> 
+  custom:scripting/monoscript/fileName/OpenXRChooseRuntimeLibraries.cs: 3923c2f1337a35d737ad0192eb46b432 -> 
+  custom:scripting/monoscript/fileName/NSUUID.cs: a2a48608e44bc8cbb62b1a99cdddf252 -> 
+  custom:scripting/monoscript/fileName/GestureId.cs: 889e58a95e1fdbd39b9a9469d81578fd -> 
+  custom:scripting/monoscript/fileName/OculusQuestFeature.cs: 041c3418dd65b8e99ca410c708996814 -> 
+  custom:scripting/monoscript/fileName/OpenXRFeatureSetManager.cs: 4f340a53d115a7e1888d00ddc4cd614b -> 
+  custom:scripting/monoscript/fileName/ARKitMeshSubsystemExtensions.cs: 3e25dd45e046da470c67f5ff164033d8 -> 
+  custom:scripting/monoscript/fileName/ARResource.cs: 253021c341563245137d0d1807d7d3a7 -> 
+  custom:scripting/monoscript/fileName/ARResourceGroup.cs: e87d95c296ad5814eea9f15988d0d4ec -> 
+  custom:scripting/monoscript/fileName/MagicLeapTextureTools.cs: c96d5b6c5749b2a2ac0599b50b37f4d6 -> 
+  custom:scripting/monoscript/fileName/OpenXRUtility.cs: af9b8bca68ffa2bc69f78ec0da9cf1fd -> 
+  custom:scripting/monoscript/fileName/Json.cs: 1754629c8da2614ba9a140f443c1fee3 -> 
+  custom:scripting/monoscript/fileName/NSString.cs: 4b17525e31f4d1759345de2778542bbc -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/CoreLocationErrorCode.cs: 3d821f96562bc14cdc5a114c5d283722 -> 
+  custom:scripting/monoscript/fileName/RenderingJobs.cs: 486cd43a9f6e281c4ac4467ca93c1212 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:scripting/monoscript/fileName/ARKitLoader.cs: 9566bc0749d86b04eda11fadbc1c73e4 -> 
+  custom:scripting/monoscript/fileName/ReflectionUtility.cs: f1a59395564a00ae5db81d3d7c624e3c -> 
+  custom:scripting/monoscript/fileName/InputLayoutLoader.cs: 7bd4a41fe0978a7843fe795393af7800 -> 2980c1660657b98176f57e2070c5cb69
+  custom:scripting/monoscript/fileName/MockRuntime.cs: 8e970d93da4762c7d57e9c9dd2b36dbb -> 
+  custom:scripting/monoscript/fileName/XRGestureSubsystemDescriptor.cs: 835a7e1c0a8017b485105bdb6334d753 -> 
+  custom:scripting/monoscript/fileName/OpenXRDevice.cs: 1b3be9b024fb29351711164fb0577202 -> 
+  custom:scripting/monoscript/fileName/HTCViveControllerProfile.cs: 575b921c71649e99576a05f0add9cf5d -> 
+  custom:scripting/monoscript/fileName/NativeFixedList.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.InteractionSubsystems: a788c54b434fa035ecb95bdefa428054 -> 
+  custom:scripting/monoscript/fileName/MagicLeapLoaderUI.cs: 46caf43b930fa6d9c48c1648d0d7ba27 -> 
+  custom:scripting/monoscript/fileName/CameraEnforcement.cs: e84417ad5e3c9235f9e86ebdb8eab3bf -> 
+  custom:scripting/monoscript/fileName/ARKitXROcclusionSubsystem.cs: 8e15bbfc2ac6e0b7dc96156a2a0c7b0f -> 
+  custom:scripting/monoscript/fileName/BootConfigBuilder.cs: a174d8870c7a69fabc7d42a75b0f23aa -> 
+  custom:scripting/monoscript/fileName/SerializedARCollaborationData.cs: 88772a290c97e67dfe62fea20b494cf7 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.OpenXR.Features.RuntimeDebugger: 81fc02b8029ab9c0bce4eaa33a13e7d8 -> 
+  custom:scripting/monoscript/fileName/NSEnumerator.cs: 7ae7a9acfc175f9850f97ed013532b28 -> 
+  custom:scripting/monoscript/fileName/OpenXRRenderSettings.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/EyeGazeInteraction.cs: dc1f12620c8656649cfc16f13969f5fa -> 
+  custom:scripting/monoscript/fileName/OpenXRAnalytics.cs: 67d5de80ae8e3ee46bb1b4907783d54c -> 
+  custom:scripting/monoscript/fileName/MicrosoftMotionControllerProfile.cs: 6dcaa2067404bed7771687f2f9dfa057 -> 
+  custom:scripting/monoscript/fileName/OpenXRRestarter.cs: c236f3f43c026f409512d203b81e6184 -> 
+  custom:scripting/monoscript/fileName/MLSpatialMapperEditor.cs: 0038d29e4a958d5a4c14ca6ebe1c77ef -> 
+  custom:scripting/monoscript/fileName/OpenXRFeatureAttribute.cs: cb6dde4b346c754b123a290cdf928c65 -> 
+  custom:scripting/monoscript/fileName/MagicLeapFeatureUsages.cs: a3dff8a6aaf7a9ee352f50a33ab90e7b -> 
+  custom:scripting/monoscript/fileName/OSVersion.cs: c26d29e3c9f69d5e80a30113ba0840c1 -> 
+  custom:scripting/monoscript/fileName/OpenXRLoaderNoPreInit.cs: 8f7a064e1e0bb6e17b9f5d171fe53dfc -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.OpenXR.Features.ConformanceAutomation: daaea684d78afe5278ff971b66e0fbf9 -> 
+  custom:scripting/monoscript/fileName/MagicLeapLoader.cs: 5c561ec9ebaed7cdeaebf52ce4ca3c06 -> 
+  custom:scripting/monoscript/fileName/HandCommonPosesInteraction.cs: c984aa78f460c3bf39ec56bc9a0a414a -> 
+  custom:scripting/monoscript/fileName/MagicLeapSettingsEditor.cs: 708902e3958ca71d3a3fe96fd9cd0de8 -> 
+  custom:scripting/monoscript/fileName/OpenXRDiagnosticReport.cs: f43e8307d90025ed39c346ed63d1208d -> 
+  custom:scripting/monoscript/fileName/RuntimeDebuggerOpenXRFeatureEditor.cs: 26a9be57964b520d3a47d8c20db877e9 -> 
+  custom:scripting/monoscript/fileName/ARKitReferenceObjectLibraryBuildProcessor.cs: 93b66a33e41305487df4f01f3976004f -> 
+  custom:scripting/monoscript/fileName/PoseControl.cs: 4ff0d325328ef40fb1693e34ac3358bf -> 26044499bf9bfd77ab38d92d33de1d80
+  custom:scripting/monoscript/fileName/OpenXRFeatureBuildHooks.cs: da31756dd3c74e69bcd7ed1a1983ed53 -> 
+  custom:scripting/monoscript/fileName/PlaneBoundaryCollection.cs: 88a2624e7643234291490b5b8ff9f27a -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.ARKit.FaceTracking: 2a32fe14095b360ca9ed147978543786 -> 
+  custom:scripting/monoscript/fileName/TransformPlaneBoundaryJob.cs: 06a3c7f18568a9fc4da262c4fc1aee52 -> 
+  custom:scripting/monoscript/fileName/CopyPlaneResultsJob.cs: 2bff733f6822661d030d8b2ee148b6a6 -> 
+  custom:scripting/monoscript/fileName/RaycastQuery.cs: ea0012fa91b5da10a8163ce058a59659 -> 
+  custom:scripting/monoscript/fileName/ARKitSessionDelegate.cs: 92167da65f4a7b70b8ec22bb76b6f97d -> 
+  custom:scripting/monoscript/fileName/Plist.cs: e32bdb6a2be6b1613d7ae3f68cfd293e -> 
+  custom:scripting/monoscript/fileName/HPReverbG2ControllerProfile.cs: 6aadb5e22feaccfa77ef6db6c4d4541c -> 
+  custom:scripting/monoscript/fileName/MLPlanesQuery.cs: 82ddd517a76b896f697389267fbcc2f8 -> 
+  custom:scripting/monoscript/fileName/ACTool.cs: 308bd8dc79489039ac10efca37701614 -> 
+  custom:scripting/monoscript/fileName/ARKitXRPlaneSubsystem.cs: f141f15b3f7016df0749d59bbaa0b821 -> 
+  custom:scripting/monoscript/fileName/MLPlaneBoundary.cs: cc9ab7fee61a0db9618e3f96b400cf5c -> 
+  custom:scripting/monoscript/fileName/XRGestureSubsystem.cs: d8c802e3daa83e625478817096d93364 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/BootConfig.cs: b2c4d54615a39b14509e601dd0f329ff -> 
+  custom:scripting/monoscript/fileName/NSURL.cs: 6eee528143aa2d877ecdbfb27588d8ef -> 
+  custom:scripting/monoscript/fileName/AsyncRaycastResult.cs: c95849ebdae3c4e888a712b354b28545 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ARKitLoaderSettings.cs: d83572ff51089ed09dfd27bdeb2d492e -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.OpenXR.Features.MetaQuestSupport: 4f75ff147337f170aa3de9eec80b973a -> 
+  custom:scripting/monoscript/fileName/ARCollaborationData.cs: b720af7da1c38b4a15a7edcd5d57aad5 -> 
+  custom:scripting/monoscript/fileName/MagicLeapLogger.cs: 672d01ee1afe55703becd16c7bacf023 -> 
+  custom:scripting/monoscript/fileName/ARKitReferenceImageLibraryBuildProcessor.cs: 6206184ff51fdbb59444c7686bf1d502 -> 
+  custom:scripting/monoscript/fileName/MemoryLayout.cs: 208b49c4a6462b579f74c37c3850b6b8 -> 
+  custom:scripting/monoscript/fileName/DefaultARKitSessionDelegate.cs: b256ddd30ccb65d7345ca2780668fa00 -> 
+  custom:scripting/monoscript/fileName/ARKitAnchorSubsystem.cs: acf2c2f617175e55839b7d99f11160fa -> 
+  custom:scripting/monoscript/fileName/RenderingUtility.cs: 9b3029b3cd3e3c983bc1457a48454c3a -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.ARKit: 6fc204d7aeb2fb82d33fc774a231fabd -> 
+  custom:scripting/monoscript/fileName/MagicLeapInput.cs: 3ef8fe5b88c94c89ea284252fb26ba61 -> 
+  custom:scripting/monoscript/fileName/XrPerformanceSettingsFeature.cs: d323744d9bc61085862cbc785e1f985c -> 
+  custom:scripting/monoscript/fileName/OpenXRPackageSettings.cs: 4f4aaba453bf105fb1c3c3d64247142d -> 
+  custom:scripting/monoscript/fileName/ModifyAndroidManifestMeta.cs: 3b920058e4dd8cbdb95cce4af271f981 -> 
+  custom:scripting/monoscript/fileName/OpenXRFeatureSetAttribute.cs: 9e20f05fe0a3688af8836175869f0bb7 -> 
+  custom:scripting/monoscript/fileName/FoveatedRenderingFeature.cs: 3cd591174f2fee5d1b0d6a1875383a9b -> 
+  custom:scripting/monoscript/fileName/HapticControl.cs: d7a5389cafde2a1337c58e2f0d91a837 -> 
+  custom:scripting/monoscript/fileName/MLSpatialMapper.cs: a912dcf81e6a3c9fb88977717b63922b -> 
+  custom:scripting/monoscript/fileName/MetaQuestFeature.cs: b9c317336250afc5bb5fa2c2df269ea6 -> 
+  custom:scripting/monoscript/fileName/ARKitBlendShapeCoefficient.cs: 2662429e57f8b429b2d2195362d507ba -> 
+  custom:scripting/monoscript/fileName/MagicLeapPerformance.cs: 6d8c51add14bf3e528c9d2ca29578449 -> 
+  custom:scripting/monoscript/fileName/ReferenceFrame.cs: 28dade84cf412fb2acc68a5d6a3e58a8 -> 
+  custom:scripting/monoscript/fileName/MLCoordinateFrameUID.cs: 8f3adf5b57f78f686499b45ba6493437 -> 
+  custom:scripting/monoscript/fileName/ARWorldMapRequest.cs: fec2d159e737171beafd9e9ef3a149f0 -> 
+  custom:scripting/monoscript/fileName/ARKitSettings.cs: 2e6831a5464c7730d88b18adacbff2e7 -> 
+  custom:scripting/monoscript/fileName/XrPerformanceSettingsTypes.cs: 5bc9c5b4646eff91646254ce341c6683 -> 
+  custom:scripting/monoscript/fileName/OpenXRRuntimeSelector.cs: 976a19637455f3c9d6af12ad00b783e3 -> 
+  custom:scripting/monoscript/fileName/OpenXRFeatureEditor.cs: 01dd3fecc4e9c7ce9fb6af5d0948ba2a -> 
+  custom:scripting/monoscript/fileName/ARObjectImporter.cs: 12ea4b768b87597d1049ad6a6e22535f -> 
+  custom:scripting/monoscript/fileName/ARReferenceImage.cs: d2b289b553abce0b157f78ade4b7160a -> 
+  custom:scripting/monoscript/fileName/BuildHelperUtils.cs: 4c87e77ddf5daceef87bee82211bd468 -> 
+  custom:scripting/monoscript/fileName/MLPlanesQueryFlags.cs: 8a4c0273ac303eb8007bbac5a5646b68 -> 
+  custom:scripting/monoscript/fileName/HandInteractionProfile.cs: 9c7649bd495ee99cc73ddacbe0a8cd95 -> 
+  custom:scripting/monoscript/fileName/NativeCopyUtility.cs: 56827e9f3645a7dc548850dac2be1d04 -> c7fbc9feb0e47601484d6e44770e756a
+  custom:scripting/monoscript/fileName/MagicLeapGestureSubsystem.cs: 465d81657a2e9789831c33bd885f6ba8 -> 
+  custom:scripting/monoscript/fileName/ARKitXRObjectTrackingSubsystem.cs: afa118c408f289b1194863e0620d7c89 -> 
+  custom:scripting/monoscript/fileName/NSObject.cs: 47a68035f42526503e5cfe852ae2787e -> 
+  custom:scripting/monoscript/fileName/ARKitPackageMetadata.cs: a48c5ac3d437f3a26f1015c7663ff8d3 -> 
+  custom:scripting/monoscript/fileName/MagicLeapTexturePostprocessor.cs: 229b19acefc7cd2e8f5ef676c197327f -> 
+  custom:scripting/precompiled-assembly-types:UnityEngine.XR.MagicLeap: 12a3bb97506fd18753a23eee143396af -> 
+  custom:scripting/monoscript/fileName/ManagedImageReference.cs: 172aecc70030141966d1673636bf2adb -> 
+  custom:scripting/monoscript/fileName/ModifyAndroidManifestOculus.cs: 1d09740e7edd66fffc5895aae9e385d3 -> 
+  custom:scripting/monoscript/fileName/ConvexHullGenerator.cs: 98d045c71cbcf681fbc79b74983999cd -> 
+  custom:scripting/monoscript/fileName/MLResult.cs: 36f227f2bd81bb9075d01db9623cea5e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MagicLeapTouchpadGestureEvent.cs: 1e3d94ff446b61969ce28972809d2057 -> 
+  custom:scripting/monoscript/fileName/RuntimeDebuggerOpenXRFeature.cs: 8b269b64ad1c99e85d7f28185c15f7bb -> 
+  custom:scripting/monoscript/fileName/MagicLeapProjectValidationRulesSetup.cs: 6775e87e7a0a79b72db857117028c10e -> 
+  custom:scripting/monoscript/fileName/Constants.cs: 75be6823bea7bba4b20fd83fa3214be7 -> fa6d96fdd2d7e3c2764da033a501daf2
+  custom:scripting/monoscript/fileName/XcodeAssetCatalog.cs: 8c659c67703d125b0b61ba1cf9ce18bc -> 
+  custom:scripting/monoscript/fileName/PerceptionHandle.cs: 6036c0b86bd787d273cb36a902a3bef3 -> 
+  custom:scripting/monoscript/fileName/MLRaycastResultState.cs: e3c656180e1f75577bc820e5c11e38e6 -> 
+  custom:scripting/monoscript/fileName/MetaQuestFeatureBuildHooks.cs: 2ac755c66ffd4e4b7c22530386a7ba47 -> 
+  custom:scripting/monoscript/fileName/ARCollaborationDataBuilder.cs: 20629fed665cfc3003083add96036680 -> 
+  custom:scripting/monoscript/fileName/Class.cs: 3c64dd8d831d661c84a0cc416ae1ccd4 -> a840b0029b5e65572133651481a63ce4
+  custom:scripting/monoscript/fileName/OpenXRInput.cs: b351db87f98ee399e568b78e0ed353e3 -> 
+  custom:scripting/monoscript/fileName/MagicLeapRaycastSubsystem.cs: 7649ffe431536f7a3579c35592e4c312 -> 
+  custom:scripting/monoscript/fileName/OpenXRInteractionFeature.cs: a60484418ad6b497996467bb6f98db73 -> 
+  custom:scripting/monoscript/fileName/MagicLeapSessionSubsystem.cs: 13485b25c472222503799bc19de7bbab -> 
+  custom:scripting/monoscript/fileName/ARKitWhiteBalanceGains.cs: 6bb317a65418adeb068551a0f3277609 -> 
+  custom:scripting/monoscript/fileName/ARKitBuildProcessor.cs: fb4696d7a9eb7f16f564442398f5e730 -> 
+  custom:scripting/monoscript/fileName/OpenXRSettings.cs: f8ff4c7422697fc56884f260233aaf86 -> 
+  custom:scripting/monoscript/fileName/MagicLeapProjectValidation.cs: 7ddee2e6f32f519df7f9245cdfc07c50 -> 
+  custom:scripting/monoscript/fileName/OpenXREditorSettings.cs: 321e3a8126bc4b0248cbcecf63892f31 -> 
+  custom:scripting/monoscript/fileName/OpenXRProjectValidation.cs: 181508e149a91a64c6dfdc447b97c322 -> 
+  custom:scripting/monoscript/fileName/MLPlaneBoundaries.cs: b0e11c685a9b8a0b4e868d4afff8bd90 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 6.55 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 15 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 15 unused Assets / (1.4 MB). Loaded Objects now: 5146.
+Memory consumption went from 81.3 MB to 79.9 MB.
+Total: 6.801189 ms (FindLiveObjects: 0.324156 ms CreateObjectMapping: 0.237330 ms MarkObjects: 4.824029 ms  DeleteObjects: 1.414341 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:scripting/monoscript/fileName/MeshingSettings.cs: d678670c394f16fa3eeed53cbf456a8a -> 
+  custom:scripting/monoscript/fileName/DPadInteraction.cs: 93f85c8ba74c4199c8fc9b6e8c6fb8a6 -> 
+  custom:scripting/monoscript/fileName/MagicLeapPlaneSubsystem.cs: 7c04e8f0915ee730b58c2a0271954a32 -> 
+  custom:scripting/monoscript/fileName/OpenXRFeatureSettingsEditor.cs: 46f7bc9b6667349416d592c92274a2cd -> 
+  custom:scripting/monoscript/fileName/NSSet.cs: 098d266b3cb002bcc6684c45ea3290f5 -> 
+  custom:scripting/monoscript/fileName/Compatibility.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/ARKitEnvironmentProbeSubsystem.cs: 8af527cb50ca3ecd28b5d03806e1fb3d -> 
+  custom:scripting/monoscript/fileName/NSData.cs: ec6c861b296dc24c4a48dee7a7afd465 -> 
+  custom:scripting/monoscript/fileName/ARKitErrorCode.cs: 3d821f96562bc14cdc5a114c5d283722 -> 
+  custom:scripting/monoscript/fileName/Cli.cs: 31ba71519e4dc5db9bc938f421b8eeea -> f278fa05dc0a28f05b8e56cf7a587c31
+  custom:scripting/monoscript/fileName/RaycastResultState.cs: 2e30e043c1283dcb51d2b17e71c1c58c -> 
+  custom:scripting/monoscript/fileName/ARObjectInfo.cs: ef16ef70f79e71400f8091b686435018 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:scripting/monoscript/fileName/ARKitXRHumanBodySubsystem.cs: 4304eb2c1d5764d09093d1c97b27864e -> 
+  custom:scripting/monoscript/fileName/ARKitApi.cs: 59763cfe15340ad6a1424e1c61e2c638 -> 
+  custom:scripting/monoscript/fileName/UWPCoreWindowBuildHooks.cs: 528ee0545204f8083d130ec04efc78bc -> 
+  custom:scripting/monoscript/fileName/MLRaycastResult.cs: 3ce5782d2bebfd7605c4af1345f80da9 -> 
+  custom:scripting/monoscript/fileName/NSMutableString.cs: 049a8b994e2ba008607d86045721198f -> 
+  custom:scripting/monoscript/fileName/MagicLeapGestures.cs: 418615b34c48b0c216049210cc9fff02 -> 
+  custom:scripting/monoscript/fileName/ARKitSettingsProvider.cs: 1efef0f80ba7ce5269417b9703f528ca -> 
+  custom:scripting/monoscript/fileName/MagicLeapSettings.cs: 17e928daf1c1fb36a9939c09d4f77443 -> 
+  custom:scripting/monoscript/fileName/ARKitCameraSubsystem.cs: 104d0f557920c1e3c985c468ba85aada -> 
+  custom:scripting/monoscript/fileName/MetaQuestFeatureEditor.cs: fff340053bb2e94334d0d5989f2eb349 -> 
+  custom:scripting/monoscript/fileName/ARKitFocusRange.cs: 605fc2b6e2a2b0b4fbfb5793218ce663 -> 
+  custom:scripting/monoscript/fileName/DeviceCommands.cs: 030ff9d6f0b68cd391d8bc96364d7917 -> 
+  custom:scripting/monoscript/fileName/PackageInfo.cs: c733b1a6c5c639a40a3bcf6b2088dd26 -> 
+  custom:scripting/monoscript/fileName/PalmPoseInteraction.cs: 6bd25b6029acb9127f25748cb0b6d2a8 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.OpenXR.Editor: 3d54a849f823922584e46df22edda47d -> 
+  custom:scripting/monoscript/fileName/ARReferenceObject.cs: e7bab736f6293ae3a0c7aec585e126b7 -> 
+  custom:scripting/monoscript/fileName/OpenXRRuntime.cs: c3a00f9ce6a0283dcb391b83637adf44 -> 
+  custom:scripting/monoscript/fileName/ARKitImageDatabase.cs: de559c55768fca0707db09a20457bfce -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:scripting/monoscript/fileName/MetaQuestTouchProControllerProfile.cs: 9fffae235d4c14901711127c7daeb86c -> 
+  custom:scripting/monoscript/fileName/ARKitCpuImageApi.cs: 98dd8eeba4ac784c65face7e6a4aa8b9 -> 
+  custom:scripting/monoscript/fileName/OpenXRConstants.cs: f878d042bd3999b796b9387b0c8a1032 -> 
+  custom:scripting/monoscript/fileName/ARKitBuildHelper.cs: 872709b1a6408a2e135ec5160a88edd4 -> 
+  custom:scripting/monoscript/fileName/OpenXRFeatureUICommon.cs: 45f7a59cd9c5cd84e28e0f7a429879c2 -> 
+  custom:scripting/monoscript/fileName/ARKitXRPointCloudSubsystem.cs: 1a98d6ea2178945bc88f07da5fcb6dfe -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.OpenXR.Features.OculusQuestSupport.Editor: c62b8d05b94c435029ef9fc43d7261ca -> 
+  custom:scripting/monoscript/fileName/OpenXRLoaderUI.cs: ebd8d704d5e26f054d43886c272cd005 -> 
+  custom:scripting/monoscript/fileName/MagicLeapAnchorSubsystem.cs: 6b92f01d667fa8d3498aceb2e2f49955 -> 
+  custom:scripting/monoscript/fileName/MLPlaneBoundariesList.cs: d791cee437481fe971b8c65f7febf40e -> 
+  custom:scripting/monoscript/fileName/ActivateGestureEvent.cs: d040d22d39e9ecd6a98653f1d64e4e27 -> 
+  custom:scripting/monoscript/fileName/ARKitFocus.cs: e50efe27bac31092d0fa898f410dfb25 -> 
+  custom:scripting/monoscript/fileName/MagicLeapFeatures.cs: c2579e88810d7c8e7391438c05d5b97c -> 
+  custom:scripting/monoscript/fileName/WaitForRestartFinish.cs: 0e76bf389cf347a5d8d6432ec661895f -> 
+  custom:scripting/monoscript/fileName/Privilege.cs: dd6d75a43851172aadce79e0fc54cde4 -> 
+  custom:scripting/monoscript/fileName/OpenXRFeatureSettings.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/OpenXRBuildProcessor.cs: 48dc0e114f75799c0d74bafe70808189 -> 
+  custom:scripting/monoscript/fileName/MagicLeapPackageMetadata.cs: 9ffddee5f92b576240175f2930a0de85 -> 
+  custom:scripting/monoscript/fileName/KHRSimpleControllerProfile.cs: bcdcb81587b2075f7af2f75706b9e69a -> 
+  custom:scripting/monoscript/fileName/HighResolutionCpuImagePromise.cs: c2ea6fa9dbf882239733f6f3621b57f6 -> 
+  custom:scripting/monoscript/fileName/OpenXRFeatureInternal.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/OpenXRSpaceSettings.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/DPadInteractionCustomEditor.cs: d93785eeae2b4d41d39f603bd6f9849d -> 
+  custom:scripting/monoscript/fileName/ARWorldMap.cs: 535b31ba5b9fbc6784647193390a0bc3 -> 
+  custom:scripting/monoscript/fileName/MagicLeapBuildProcessor.cs: 117933c3d1de72d884dcef481ff5e5fb -> 
+  custom:scripting/monoscript/fileName/EnvironmentProbeApi.cs: 765c557bbf45086a87ff78c8b7e46019 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.OpenXR.Features.RuntimeDebugger.Editor: e1cc4b3ad1ade1a1503c3d79a1cfcaf0 -> 
+  custom:scripting/monoscript/fileName/PlaneBoundary.cs: 634512e9c27730216bd14bea145250c3 -> 
+  custom:scripting/monoscript/fileName/ARKitParticipantSubsystem.cs: 5c60cbef6290b8ded8f808a96d691214 -> 
+  custom:scripting/monoscript/fileName/ConformanceAutomationFeature.cs: 97112e825fad9ed87f6a9c7acc231c0b -> 
+  custom:scripting/monoscript/fileName/NSBundle.cs: 33c6a2bcba03693ba508989eec17c560 -> 
+  custom:scripting/monoscript/fileName/MLPolygon.cs: 4a06c2043437d92eb54944e9a081b085 -> 
+  custom:scripting/monoscript/fileName/OpenXRLoaderInternal.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/precompiled-assembly-types:UnityEditor.XR.MagicLeap: 0373bbe657192d112d561b02d6bd2745 -> 
+  custom:scripting/monoscript/fileName/NativeView.cs: d619544ee47be895255e762f2535d032 -> 4afb79670cf27530a179f070ba3fe9aa
+  custom:scripting/monoscript/fileName/MagicLeapMeshSubsystemExtensions.cs: cd0fcd50d468cf528282ac1237cd697d -> 
+  custom:scripting/monoscript/fileName/MLRaycastQuery.cs: d1cb7e79d42204271b77a9ee248fcf06 -> 
+  custom:scripting/monoscript/fileName/NSKeyedUnarchiver.cs: d25f60b98ba9ad9e5c8d4737c2e9d9be -> 
+  custom:scripting/monoscript/fileName/FeatureHelpers.cs: 0e8d07707daeed1da30b1605e903226b -> 
+  custom:scripting/monoscript/fileName/ARKitReferenceObjectEntryEditor.cs: 2506e6d8cc515aef38f510b618954ae5 -> 
+  custom:scripting/monoscript/fileName/DebuggerState.cs: 41070b7a08cc178a9ea51324cdaf5b81 -> 
+  custom:scripting/monoscript/fileName/SDKUtility.cs: c638dd448251d2c8738cf7478e7d130d -> 
+  custom:scripting/monoscript/fileName/PlatformLevelSelector.cs: e075eaa2461e3d89780f006f974b74b1 -> 
+  custom:scripting/monoscript/fileName/MagicLeapConstants.cs: 9bd1e03b2a09a0e6d35f52da6d14ccc6 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.OpenXR.Features.MetaQuestSupport.Editor: 9829cba232beb755dc033ec3726e102e -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.OpenXR.Features.OculusQuestSupport: d15f77eecb71f285045ab68c6a5ab3aa -> 
+  custom:CustomObjectIndexerAttribute: 232f87dd983dbecb2a4e21e08eb2cef8 -> 
+  custom:scripting/monoscript/fileName/OpenXRHmd.cs: 1624687aa096b40d58d149d9c6304cca -> 
+  custom:scripting/monoscript/fileName/ARKitLoaderConstants.cs: fce2d3bcbeaadbe15e271ca20deef3d5 -> 
+  custom:scripting/monoscript/fileName/OpenXRMangementSettings.cs: 5a013b6c45b1e1d06085cb1496493b86 -> 
+  custom:scripting/monoscript/fileName/NSError.cs: cc8d1c8642eb0c09bbe5ce0dec94bd25 -> 
+  custom:scripting/monoscript/fileName/OculusTouchControllerProfile.cs: 03df51b5c781d1980f509408bae72bc8 -> 
+  custom:scripting/monoscript/fileName/ARKitXRDepthSubsystem.deprecated.cs: 1ef03a3ed5f405020f2a89bf6934da71 -> 
+  custom:scripting/monoscript/fileName/OpenXRNativeTypes.cs: 91cde5f962ea5dcb75652e72bac8769f -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:scripting/monoscript/fileName/MLPlane.cs: 10e174196ef29b6dcf9322afbbbd89a9 -> 
+  custom:scripting/monoscript/fileName/KnownFeatureSets.cs: 2cf391597f07a52473981e9cc2b41b67 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.OpenXR.Features.MockRuntime: e75d918d8106c27865ca5517b4bdd194 -> 
+  custom:scripting/monoscript/fileName/NSMutableData.cs: c7e9987227cce7611d6a05fe68c2cb77 -> 
+  custom:scripting/monoscript/fileName/ARKitRaycastSubsystem.cs: 623d9e732098000fc343642286dd9266 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.ARKit.Editor: dc1fa14db583effdf9ddd096181b476f -> 
+  custom:scripting/monoscript/fileName/OpenXRProjectValidationRulesSetup.cs: 63c520149123eced22b6028c5ebd9d08 -> 
+  custom:scripting/monoscript/fileName/ARKitImageTrackingProvider.cs: 70266a96d5ef2d399df3471877895e03 -> 
+  custom:scripting/monoscript/fileName/ARKitProjectValidationRules.cs: 092b6d2b9bcaa79400bc377e7f6aa83c -> 
+  custom:scripting/monoscript/fileName/ARKitExposureRange.cs: c1f31a49db9c26bd91165a1eb2673976 -> 
+  custom:scripting/monoscript/fileName/ARKitExposure.cs: 909299797d8c934da06a24e54a0fd31b -> 
+  custom:scripting/monoscript/fileName/ARKitLockedCamera.cs: f7a573d9a8bf893afef96708e9a0de75 -> 
+  custom:scripting/monoscript/fileName/MicrosoftHandInteraction.cs: dac920740153b0163dda0f7e56920e40 -> 
+  custom:scripting/monoscript/fileName/NativeChanges.cs: bb6bfd8c11abd0434837439c8e9e8520 -> 
+  custom:scripting/monoscript/fileName/GuidExtensions.cs: eba4d5f4f9e9e7d74fdb0e8dca26aeaa -> 44db2c6de632233215541342af9cfb6b
+  custom:scripting/monoscript/fileName/ARKitWhiteBalanceRange.cs: 4e0500ed849d219c4bbca4aafab67d48 -> 
+  custom:scripting/monoscript/fileName/DeviceLayouts.cs: 2c692460aaf580246dda5ac47f6cbebd -> 
+  custom:scripting/monoscript/fileName/SubsystemLifecycleManager.cs: 8f6297df34271fdb1ce2d9607ec6261d -> 90647cc400823b41df847a6cbfc29026
+  custom:scripting/monoscript/fileName/ARObject.cs: 2b0391e8a0699f597c6ab9944bace292 -> 
+  custom:scripting/monoscript/fileName/RcoApi.cs: 493da608ddf5924884153c701a7eb8a4 -> 1b7d1343bf82f11ff12a2ad830cbbf88
+  custom:scripting/monoscript/fileName/ARWorldMapRequestStatus.cs: 792f740e97daac3c301b3674d914cfd1 -> 
+  custom:scripting/monoscript/fileName/ARKitReferenceObjectEntry.cs: 50b4bbb259fa265e7cc07c069c67b13b -> 
+  custom:scripting/monoscript/fileName/RuntimeDebuggerWindow.cs: 0bc1d5ee7ce2553d42d62861471f3c44 -> 
+  custom:scripting/monoscript/fileName/ARKitSessionSubsystem.cs: c4ffd360918f486d1102082396f319cf -> 
+  custom:scripting/monoscript/fileName/PackageSettingsEditor.cs: 6212fddebb8f67c4da0f50592230839b -> 
+  custom:scripting/monoscript/fileName/OpenXRFeature.cs: acc85e9ee19694a3b824048be72ad0db -> 
+  custom:scripting/monoscript/fileName/PrivilegeGroup.cs: 0ccb674b5da3afa163a4f1b3128dd6b9 -> 
+  custom:scripting/monoscript/fileName/NSMutableSet.cs: 7f19e37a332cdb2db357441a81e88908 -> 
+  custom:scripting/monoscript/fileName/ModifyAndroidManifestMagicLeap.cs: 1ac4ec641076f18d4f49533953e0061f -> 
+  custom:scripting/monoscript/fileName/ARKitFaceSubsystem.cs: 8e1d6d99e8569e2f3b96d331d4479042 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.OpenXR: eed582293872c812041e2c98e72b372e -> 
+  custom:scripting/monoscript/fileName/OpenXRLoader.cs: 18020e98a4b26e822e0c5684b0251e04 -> 
+  custom:scripting/monoscript/fileName/PrivilegeParser.cs: 744869a65dda2d697b8cf033f01a0a02 -> 
+  custom:scripting/monoscript/fileName/RenderingSettings.cs: 8172f97c0177162ae82d3c0a841e9acb -> 
+  custom:scripting/monoscript/fileName/ValveIndexControllerProfile.cs: f923b1771c835a70375d3505e818878d -> 
+  custom:scripting/monoscript/fileName/OculusQuestFeatureEditor.cs: af70b82209b4cf6ce20a2da2892dfc5f -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:scripting/monoscript/fileName/NoniOSBuildProcessor.cs: 8a77f4649f6e33ca5b76785cb4db8d2e -> 
+  custom:scripting/monoscript/fileName/OpenXRChooseRuntimeLibraries.cs: 3923c2f1337a35d737ad0192eb46b432 -> 
+  custom:scripting/monoscript/fileName/NSUUID.cs: a2a48608e44bc8cbb62b1a99cdddf252 -> 
+  custom:scripting/monoscript/fileName/GestureId.cs: 889e58a95e1fdbd39b9a9469d81578fd -> 
+  custom:scripting/monoscript/fileName/OculusQuestFeature.cs: 041c3418dd65b8e99ca410c708996814 -> 
+  custom:scripting/monoscript/fileName/OpenXRFeatureSetManager.cs: 4f340a53d115a7e1888d00ddc4cd614b -> 
+  custom:scripting/monoscript/fileName/ARKitMeshSubsystemExtensions.cs: 3e25dd45e046da470c67f5ff164033d8 -> 
+  custom:scripting/monoscript/fileName/ARResource.cs: 253021c341563245137d0d1807d7d3a7 -> 
+  custom:scripting/monoscript/fileName/ARResourceGroup.cs: e87d95c296ad5814eea9f15988d0d4ec -> 
+  custom:scripting/monoscript/fileName/MagicLeapTextureTools.cs: c96d5b6c5749b2a2ac0599b50b37f4d6 -> 
+  custom:scripting/monoscript/fileName/OpenXRUtility.cs: af9b8bca68ffa2bc69f78ec0da9cf1fd -> 
+  custom:scripting/monoscript/fileName/Json.cs: 1754629c8da2614ba9a140f443c1fee3 -> 
+  custom:scripting/monoscript/fileName/NSString.cs: 4b17525e31f4d1759345de2778542bbc -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:scripting/monoscript/fileName/CoreLocationErrorCode.cs: 3d821f96562bc14cdc5a114c5d283722 -> 
+  custom:scripting/monoscript/fileName/RenderingJobs.cs: 486cd43a9f6e281c4ac4467ca93c1212 -> 
+  custom:AudioImporter_EditorPlatform: 2f0ff77a95e0ac474e3e8eeba4e2f7cb -> 
+  custom:scripting/monoscript/fileName/ARKitLoader.cs: 9566bc0749d86b04eda11fadbc1c73e4 -> 
+  custom:scripting/monoscript/fileName/ReflectionUtility.cs: f1a59395564a00ae5db81d3d7c624e3c -> 
+  custom:scripting/monoscript/fileName/InputLayoutLoader.cs: 7bd4a41fe0978a7843fe795393af7800 -> 2980c1660657b98176f57e2070c5cb69
+  custom:scripting/monoscript/fileName/MockRuntime.cs: 8e970d93da4762c7d57e9c9dd2b36dbb -> 
+  custom:scripting/monoscript/fileName/XRGestureSubsystemDescriptor.cs: 835a7e1c0a8017b485105bdb6334d753 -> 
+  custom:scripting/monoscript/fileName/OpenXRDevice.cs: 1b3be9b024fb29351711164fb0577202 -> 
+  custom:scripting/monoscript/fileName/HTCViveControllerProfile.cs: 575b921c71649e99576a05f0add9cf5d -> 
+  custom:scripting/monoscript/fileName/NativeFixedList.cs: 0cdf409b5aa8d4c25876d72b5c6a3b60 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.InteractionSubsystems: a788c54b434fa035ecb95bdefa428054 -> 
+  custom:scripting/monoscript/fileName/MagicLeapLoaderUI.cs: 46caf43b930fa6d9c48c1648d0d7ba27 -> 
+  custom:scripting/monoscript/fileName/CameraEnforcement.cs: e84417ad5e3c9235f9e86ebdb8eab3bf -> 
+  custom:scripting/monoscript/fileName/ARKitXROcclusionSubsystem.cs: 8e15bbfc2ac6e0b7dc96156a2a0c7b0f -> 
+  custom:scripting/monoscript/fileName/BootConfigBuilder.cs: a174d8870c7a69fabc7d42a75b0f23aa -> 
+  custom:scripting/monoscript/fileName/SerializedARCollaborationData.cs: 88772a290c97e67dfe62fea20b494cf7 -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.OpenXR.Features.RuntimeDebugger: 81fc02b8029ab9c0bce4eaa33a13e7d8 -> 
+  custom:scripting/monoscript/fileName/NSEnumerator.cs: 7ae7a9acfc175f9850f97ed013532b28 -> 
+  custom:scripting/monoscript/fileName/OpenXRRenderSettings.cs: 90647cc400823b41df847a6cbfc29026 -> 
+  custom:scripting/monoscript/fileName/EyeGazeInteraction.cs: dc1f12620c8656649cfc16f13969f5fa -> 
+  custom:scripting/monoscript/fileName/OpenXRAnalytics.cs: 67d5de80ae8e3ee46bb1b4907783d54c -> 
+  custom:scripting/monoscript/fileName/MicrosoftMotionControllerProfile.cs: 6dcaa2067404bed7771687f2f9dfa057 -> 
+  custom:scripting/monoscript/fileName/OpenXRRestarter.cs: c236f3f43c026f409512d203b81e6184 -> 
+  custom:scripting/monoscript/fileName/MLSpatialMapperEditor.cs: 0038d29e4a958d5a4c14ca6ebe1c77ef -> 
+  custom:scripting/monoscript/fileName/OpenXRFeatureAttribute.cs: cb6dde4b346c754b123a290cdf928c65 -> 
+  custom:scripting/monoscript/fileName/MagicLeapFeatureUsages.cs: a3dff8a6aaf7a9ee352f50a33ab90e7b -> 
+  custom:scripting/monoscript/fileName/OSVersion.cs: c26d29e3c9f69d5e80a30113ba0840c1 -> 
+  custom:scripting/monoscript/fileName/OpenXRLoaderNoPreInit.cs: 8f7a064e1e0bb6e17b9f5d171fe53dfc -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.OpenXR.Features.ConformanceAutomation: daaea684d78afe5278ff971b66e0fbf9 -> 
+  custom:scripting/monoscript/fileName/MagicLeapLoader.cs: 5c561ec9ebaed7cdeaebf52ce4ca3c06 -> 
+  custom:scripting/monoscript/fileName/HandCommonPosesInteraction.cs: c984aa78f460c3bf39ec56bc9a0a414a -> 
+  custom:scripting/monoscript/fileName/MagicLeapSettingsEditor.cs: 708902e3958ca71d3a3fe96fd9cd0de8 -> 
+  custom:scripting/monoscript/fileName/OpenXRDiagnosticReport.cs: f43e8307d90025ed39c346ed63d1208d -> 
+  custom:scripting/monoscript/fileName/RuntimeDebuggerOpenXRFeatureEditor.cs: 26a9be57964b520d3a47d8c20db877e9 -> 
+  custom:scripting/monoscript/fileName/ARKitReferenceObjectLibraryBuildProcessor.cs: 93b66a33e41305487df4f01f3976004f -> 
+  custom:scripting/monoscript/fileName/PoseControl.cs: 4ff0d325328ef40fb1693e34ac3358bf -> 26044499bf9bfd77ab38d92d33de1d80
+  custom:scripting/monoscript/fileName/OpenXRFeatureBuildHooks.cs: da31756dd3c74e69bcd7ed1a1983ed53 -> 
+  custom:scripting/monoscript/fileName/PlaneBoundaryCollection.cs: 88a2624e7643234291490b5b8ff9f27a -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.ARKit.FaceTracking: 2a32fe14095b360ca9ed147978543786 -> 
+  custom:scripting/monoscript/fileName/TransformPlaneBoundaryJob.cs: 06a3c7f18568a9fc4da262c4fc1aee52 -> 
+  custom:scripting/monoscript/fileName/CopyPlaneResultsJob.cs: 2bff733f6822661d030d8b2ee148b6a6 -> 
+  custom:scripting/monoscript/fileName/RaycastQuery.cs: ea0012fa91b5da10a8163ce058a59659 -> 
+  custom:scripting/monoscript/fileName/ARKitSessionDelegate.cs: 92167da65f4a7b70b8ec22bb76b6f97d -> 
+  custom:scripting/monoscript/fileName/Plist.cs: e32bdb6a2be6b1613d7ae3f68cfd293e -> 
+  custom:scripting/monoscript/fileName/HPReverbG2ControllerProfile.cs: 6aadb5e22feaccfa77ef6db6c4d4541c -> 
+  custom:scripting/monoscript/fileName/MLPlanesQuery.cs: 82ddd517a76b896f697389267fbcc2f8 -> 
+  custom:scripting/monoscript/fileName/ACTool.cs: 308bd8dc79489039ac10efca37701614 -> 
+  custom:scripting/monoscript/fileName/ARKitXRPlaneSubsystem.cs: f141f15b3f7016df0749d59bbaa0b821 -> 
+  custom:scripting/monoscript/fileName/MLPlaneBoundary.cs: cc9ab7fee61a0db9618e3f96b400cf5c -> 
+  custom:scripting/monoscript/fileName/XRGestureSubsystem.cs: d8c802e3daa83e625478817096d93364 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:scripting/monoscript/fileName/BootConfig.cs: b2c4d54615a39b14509e601dd0f329ff -> 
+  custom:scripting/monoscript/fileName/NSURL.cs: 6eee528143aa2d877ecdbfb27588d8ef -> 
+  custom:scripting/monoscript/fileName/AsyncRaycastResult.cs: c95849ebdae3c4e888a712b354b28545 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/ARKitLoaderSettings.cs: d83572ff51089ed09dfd27bdeb2d492e -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.OpenXR.Features.MetaQuestSupport: 4f75ff147337f170aa3de9eec80b973a -> 
+  custom:scripting/monoscript/fileName/ARCollaborationData.cs: b720af7da1c38b4a15a7edcd5d57aad5 -> 
+  custom:scripting/monoscript/fileName/MagicLeapLogger.cs: 672d01ee1afe55703becd16c7bacf023 -> 
+  custom:scripting/monoscript/fileName/ARKitReferenceImageLibraryBuildProcessor.cs: 6206184ff51fdbb59444c7686bf1d502 -> 
+  custom:scripting/monoscript/fileName/MemoryLayout.cs: 208b49c4a6462b579f74c37c3850b6b8 -> 
+  custom:scripting/monoscript/fileName/DefaultARKitSessionDelegate.cs: b256ddd30ccb65d7345ca2780668fa00 -> 
+  custom:scripting/monoscript/fileName/ARKitAnchorSubsystem.cs: acf2c2f617175e55839b7d99f11160fa -> 
+  custom:scripting/monoscript/fileName/RenderingUtility.cs: 9b3029b3cd3e3c983bc1457a48454c3a -> 
+  custom:scripting/precompiled-assembly-types:Unity.XR.ARKit: 6fc204d7aeb2fb82d33fc774a231fabd -> 
+  custom:scripting/monoscript/fileName/MagicLeapInput.cs: 3ef8fe5b88c94c89ea284252fb26ba61 -> 
+  custom:scripting/monoscript/fileName/XrPerformanceSettingsFeature.cs: d323744d9bc61085862cbc785e1f985c -> 
+  custom:scripting/monoscript/fileName/OpenXRPackageSettings.cs: 4f4aaba453bf105fb1c3c3d64247142d -> 
+  custom:scripting/monoscript/fileName/ModifyAndroidManifestMeta.cs: 3b920058e4dd8cbdb95cce4af271f981 -> 
+  custom:scripting/monoscript/fileName/OpenXRFeatureSetAttribute.cs: 9e20f05fe0a3688af8836175869f0bb7 -> 
+  custom:scripting/monoscript/fileName/FoveatedRenderingFeature.cs: 3cd591174f2fee5d1b0d6a1875383a9b -> 
+  custom:scripting/monoscript/fileName/HapticControl.cs: d7a5389cafde2a1337c58e2f0d91a837 -> 
+  custom:scripting/monoscript/fileName/MLSpatialMapper.cs: a912dcf81e6a3c9fb88977717b63922b -> 
+  custom:scripting/monoscript/fileName/MetaQuestFeature.cs: b9c317336250afc5bb5fa2c2df269ea6 -> 
+  custom:scripting/monoscript/fileName/ARKitBlendShapeCoefficient.cs: 2662429e57f8b429b2d2195362d507ba -> 
+  custom:scripting/monoscript/fileName/MagicLeapPerformance.cs: 6d8c51add14bf3e528c9d2ca29578449 -> 
+  custom:scripting/monoscript/fileName/ReferenceFrame.cs: 28dade84cf412fb2acc68a5d6a3e58a8 -> 
+  custom:scripting/monoscript/fileName/MLCoordinateFrameUID.cs: 8f3adf5b57f78f686499b45ba6493437 -> 
+  custom:scripting/monoscript/fileName/ARWorldMapRequest.cs: fec2d159e737171beafd9e9ef3a149f0 -> 
+  custom:scripting/monoscript/fileName/ARKitSettings.cs: 2e6831a5464c7730d88b18adacbff2e7 -> 
+  custom:scripting/monoscript/fileName/XrPerformanceSettingsTypes.cs: 5bc9c5b4646eff91646254ce341c6683 -> 
+  custom:scripting/monoscript/fileName/OpenXRRuntimeSelector.cs: 976a19637455f3c9d6af12ad00b783e3 -> 
+  custom:scripting/monoscript/fileName/OpenXRFeatureEditor.cs: 01dd3fecc4e9c7ce9fb6af5d0948ba2a -> 
+  custom:scripting/monoscript/fileName/ARObjectImporter.cs: 12ea4b768b87597d1049ad6a6e22535f -> 
+  custom:scripting/monoscript/fileName/ARReferenceImage.cs: d2b289b553abce0b157f78ade4b7160a -> 
+  custom:scripting/monoscript/fileName/BuildHelperUtils.cs: 4c87e77ddf5daceef87bee82211bd468 -> 
+  custom:scripting/monoscript/fileName/MLPlanesQueryFlags.cs: 8a4c0273ac303eb8007bbac5a5646b68 -> 
+  custom:scripting/monoscript/fileName/HandInteractionProfile.cs: 9c7649bd495ee99cc73ddacbe0a8cd95 -> 
+  custom:scripting/monoscript/fileName/NativeCopyUtility.cs: 56827e9f3645a7dc548850dac2be1d04 -> c7fbc9feb0e47601484d6e44770e756a
+  custom:scripting/monoscript/fileName/MagicLeapGestureSubsystem.cs: 465d81657a2e9789831c33bd885f6ba8 -> 
+  custom:scripting/monoscript/fileName/ARKitXRObjectTrackingSubsystem.cs: afa118c408f289b1194863e0620d7c89 -> 
+  custom:scripting/monoscript/fileName/NSObject.cs: 47a68035f42526503e5cfe852ae2787e -> 
+  custom:scripting/monoscript/fileName/ARKitPackageMetadata.cs: a48c5ac3d437f3a26f1015c7663ff8d3 -> 
+  custom:scripting/monoscript/fileName/MagicLeapTexturePostprocessor.cs: 229b19acefc7cd2e8f5ef676c197327f -> 
+  custom:scripting/precompiled-assembly-types:UnityEngine.XR.MagicLeap: 12a3bb97506fd18753a23eee143396af -> 
+  custom:scripting/monoscript/fileName/ManagedImageReference.cs: 172aecc70030141966d1673636bf2adb -> 
+  custom:scripting/monoscript/fileName/ModifyAndroidManifestOculus.cs: 1d09740e7edd66fffc5895aae9e385d3 -> 
+  custom:scripting/monoscript/fileName/ConvexHullGenerator.cs: 98d045c71cbcf681fbc79b74983999cd -> 
+  custom:scripting/monoscript/fileName/MLResult.cs: 36f227f2bd81bb9075d01db9623cea5e -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:scripting/monoscript/fileName/MagicLeapTouchpadGestureEvent.cs: 1e3d94ff446b61969ce28972809d2057 -> 
+  custom:scripting/monoscript/fileName/RuntimeDebuggerOpenXRFeature.cs: 8b269b64ad1c99e85d7f28185c15f7bb -> 
+  custom:scripting/monoscript/fileName/MagicLeapProjectValidationRulesSetup.cs: 6775e87e7a0a79b72db857117028c10e -> 
+  custom:scripting/monoscript/fileName/Constants.cs: 75be6823bea7bba4b20fd83fa3214be7 -> fa6d96fdd2d7e3c2764da033a501daf2
+  custom:scripting/monoscript/fileName/XcodeAssetCatalog.cs: 8c659c67703d125b0b61ba1cf9ce18bc -> 
+  custom:scripting/monoscript/fileName/PerceptionHandle.cs: 6036c0b86bd787d273cb36a902a3bef3 -> 
+  custom:scripting/monoscript/fileName/MLRaycastResultState.cs: e3c656180e1f75577bc820e5c11e38e6 -> 
+  custom:scripting/monoscript/fileName/MetaQuestFeatureBuildHooks.cs: 2ac755c66ffd4e4b7c22530386a7ba47 -> 
+  custom:scripting/monoscript/fileName/ARCollaborationDataBuilder.cs: 20629fed665cfc3003083add96036680 -> 
+  custom:scripting/monoscript/fileName/Class.cs: 3c64dd8d831d661c84a0cc416ae1ccd4 -> a840b0029b5e65572133651481a63ce4
+  custom:scripting/monoscript/fileName/OpenXRInput.cs: b351db87f98ee399e568b78e0ed353e3 -> 
+  custom:scripting/monoscript/fileName/MagicLeapRaycastSubsystem.cs: 7649ffe431536f7a3579c35592e4c312 -> 
+  custom:scripting/monoscript/fileName/OpenXRInteractionFeature.cs: a60484418ad6b497996467bb6f98db73 -> 
+  custom:scripting/monoscript/fileName/MagicLeapSessionSubsystem.cs: 13485b25c472222503799bc19de7bbab -> 
+  custom:scripting/monoscript/fileName/ARKitWhiteBalanceGains.cs: 6bb317a65418adeb068551a0f3277609 -> 
+  custom:scripting/monoscript/fileName/ARKitBuildProcessor.cs: fb4696d7a9eb7f16f564442398f5e730 -> 
+  custom:scripting/monoscript/fileName/OpenXRSettings.cs: f8ff4c7422697fc56884f260233aaf86 -> 
+  custom:scripting/monoscript/fileName/MagicLeapProjectValidation.cs: 7ddee2e6f32f519df7f9245cdfc07c50 -> 
+  custom:scripting/monoscript/fileName/OpenXREditorSettings.cs: 321e3a8126bc4b0248cbcecf63892f31 -> 
+  custom:scripting/monoscript/fileName/OpenXRProjectValidation.cs: 181508e149a91a64c6dfdc447b97c322 -> 
+  custom:scripting/monoscript/fileName/MLPlaneBoundaries.cs: b0e11c685a9b8a0b4e868d4afff8bd90 -> 
+TcpMessagingSession - receive error
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file

@@ -42,7 +42,7 @@ $$\Large f'(x, y, z) = \begin{bmatrix}\dfrac{\partial f(x, y, z)}{\partial x} & 
     $$\Large \underset{x\in\mathbb{R^3}}{\text{min}}\space E[x] = \underset{i = 1}{\overset{k}{\sum}}(n_i \cdot (x - p_i))^2$$
     <br>
 
-    $$\Large p_i \Rightarrow \text{i-th point of intersection on an edge}$$
+    $$\Large p_i \Rightarrow i^{\text{th}} \text{ point of intersection on an edge}$$
     <br>
 
     $$\Large n_i \Rightarrow \text{normal at }p_i$$
